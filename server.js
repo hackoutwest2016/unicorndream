@@ -21,7 +21,7 @@ app.get('/playlist', function (req, res) {
     var counter = 0;
     for(var i = 0; i<body.items.length; i++){
       if(body.items[i].collaborative){
-        var playlist = {playlistID: body.items[i].id, userID: body.items[i].owner.id, playlistName: body.items[i].name};
+        var playlist = {playlistID: body.items[i].id, userID: body.items[i].owner.id, playlistName: body.items[i].name, playlistImage: body.items[i].images[0].url};
         playlists[counter]=playlist;
         counter++;
       }
