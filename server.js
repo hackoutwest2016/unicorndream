@@ -8,6 +8,8 @@ var cookieParser = require('cookie-parser');
 var querystring = require('querystring');
 var stateKey = 'spotify_auth_state';
 var app = express();
+app.use(express.static(__dirname + '/public'))
+   .use(cookieParser());
 
 app.get('/:user/playlist', function (req, res) {
   var options = {
