@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+
+<dom-module id="button-container">
+
+  <template>
+
+    <style>
+      :host {
+        display: flex;
+      }    
+    </style>
+    
+    <!-- local DOM goes here -->
+    <paper-button raised>Up</paper-button>
+    <paper-button raised>Down</paper-button>
+
+  </template>
+
+  <script>
+  Polymer({
+    is: 'button-container'
+  });
+  </script>
+
+</dom-module>
+

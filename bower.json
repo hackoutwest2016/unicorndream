@@ -24,6 +24,7 @@
     "paper-item": "PolymerElements/paper-item#^1.2.1",
     "paper-card": "PolymerElements/paper-card#^1.1.2",
     "paper-input": "PolymerElements/paper-input#^1.1.17"
+
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"
