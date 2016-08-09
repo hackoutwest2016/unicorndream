@@ -61,20 +61,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <iron-list items="[[tracksData.tracks]]" as="item">
           <template>
             <div>
-              ID: [[item.playlistId]]
               <track-item 
                 song-name=[[item.trackName]]
                 artist-name=[[item.artistName]]
                 album-name=[[item.albumName]]
                 album-image=[[item.albumImage]]>
               </track-item>
-              __________________________________
             </div>
           </template>
         </iron-list>
       </template>
 
-      <template is="dom-bind">
+<!--       <template is="dom-bind">
         <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
         <iron-data-table items="[[playlistData.playlists]]" selection-enabled>
           <data-table-column name="Playlist Id" filter-by="playlistId">
@@ -97,21 +95,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <template>
               <button-container></button-container>
               <span>{{plusOrMinus}}</span>
-<!--               <paper-button>Upvote</paper-button>
-              <paper-button>Downvote</paper-button> -->
             </template>
           </data-table-column>
           <data-table-column name="Index">
             <template>
-              <!-- <div>{{this.testnumber}}</div> -->
-              <!-- <span>Hej +  {{testnumber}}</span> -->
               <span>{{index}}</span>
               <div hidden="[[!selected]]">Selected</div>
-              <!-- {{this.index2id(index)}} -->
             </template>
           </data-table-column>
         </iron-data-table>
-      </template>
+      </template> -->
     </div>
   </template>
   <script>

@@ -1,25 +1,58 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/paper-material/paper-material.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 
 <dom-module id="track-item">
 
   <template>
 
-    <style>
+    <style is="custom-style" include="iron-flex iron-flex-alignment">
       :host {
         display: flex;
-      }    
+      }
+      paper-material {
+        display: flex;
+        background: white;
+        box-sizing: border-box;
+        margin: 8px;
+        padding: 16px;
+        border-radius: 2px;
+        width: 100%;
+      }
+      .container {
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+        @apply(--layout-justified);
+      }
+      .songArtist {
+        /*@apply(--layout-self-start);*/
+        @apply(--layout-start-justified);
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+      }
+      .buttonContainer {
+        @apply(--layout-end-justified);
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+      }
     </style>
     
     <!-- local DOM goes here -->
-    <iron-image src={{albumImage}} style="width:100px; height:100px;" sizing="contain"></iron-image>
-    <span>{{songName}}</span>
-    <span>{{artistName}}</span>
-    <span>{{albumName}}</span>
-    <paper-button id='upButton' raised>Up</paper-button>
-    <paper-button id='downButton' raised>Down</paper-button>
-    <span>{{localVotes}}</span>
+    <paper-material class="container">
+      <div>
+        <iron-image src={{albumImage}} style="width:100px; height:100px;" sizing="contain"></iron-image>
+        <span>{{songName}}</span>
+        <span>{{artistName}}</span>
+        <span>{{albumName}}</span>
+        <span>{{localVotes}}</span>
+      </div>
+      <div>
+        <paper-button id='upButton' raised>Up</paper-button>
+        <paper-button id='downButton' raised>Down</paper-button>
+      </div>
+    </paper-material>
   </template>
 
   <script>
