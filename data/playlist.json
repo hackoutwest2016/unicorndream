@@ -1,16 +1,22 @@
 {
   "playlists": [
     {
-      "playlistId": 1,
-      "userId": 1
+      "playlistID": "5DEfB6faDy0LMFnqaqVUMH",
+      "userID": "blze",
+      "playlistName": "test-playlist",
+      "playlistImage": "https://i.scdn.co/image/4652c5dcfeeb8962bfec52f8563726c0eee66a62"
     },
     {
-      "playlistId": 2,
-      "userId": 1
+      "playlistID": "6klMW9XTrrMqlMa6aTxNbo",
+      "userID": "blze",
+      "playlistName": "Graduation day",
+      "playlistImage": "https://mosaic.scdn.co/640/deab63fe4409c17f09d5e5cb8360cbd5a395d1a4c7eb46e6ea0c4fa929c95a6f4b0c991d818fc5a250cc1e02eb1a4af701f5276a226242ff83811a67472b8ac6b6637f31e25f51714ef464ee1069cf6f"
     },
     {
-      "playlistId": 3,
-      "userId": 1
+      "playlistID": "1cfnvJDmuJ1NweHjaK9qMr",
+      "userID": "blze",
+      "playlistName": "50årsfest",
+      "playlistImage": "https://mosaic.scdn.co/640/73f4e10d32e651122e320def96708e189be0f9658fcfd07b27039a9a7e4356a028430b167303684948c7952ccda706097e688db08164cd8e43e6e72ff6c7ac010fbb89206835a5bf91d74fc62acd5360"
     }
   ]
 }

@@ -41,7 +41,7 @@ var server = app.listen(8081, function () {
 app.get('/:user/:playlist/tracks', function (req, res) {
    var options = {
       url: 'https://api.spotify.com/v1/users/' + req.params.user + '/playlists/' + req.params.playlist + '/tracks',
-      headers: { 'Authorization': 'Bearer ' + access_token },
+      headers: { 'Authorization': 'Bearer ' + req.query.access_token },
       json: true
     };
     console.log(options.url);
@@ -52,7 +52,7 @@ app.get('/:user/:playlist/tracks', function (req, res) {
         var track = {trackID: body.items[i].track.id, trackName: body.items[i].track.name, artistName: body.items[i].track.artists[0].name, albumName: body.items[i].track.album.name, albumImage: body.items[i].track.album.images[0].url};
         tracks[i]=track;
       };
-      res.end(JSON.stringify(tracks));
+      res.end(JSON.stringify({ 'tracks':  tracks}));
    });
 })
 
