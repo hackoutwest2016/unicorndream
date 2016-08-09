@@ -7,7 +7,7 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 var spotifyuser = 'blze'; // TODO Remove, should be passed from front end.
-var access_token = 'BQBsp_zZIOWPLJsv4g2OAPJGwMsOeoxlf3qzGUhqmmeoVJjWhGrTvYSR4KrQSabjxAIQ08kNECQOCikeeUSxB4C2tU4psG34mVKPIAyTVJjOCdHyC14ql8tp9uGubLGk_BCy93FbjvvA1NYMGV6JJcaVIqPNkN-EEKj15CAoFh9EWv9iLlT6kvphOjBJz4xIbFcR-YSSH2NYtGs1aVmgbv3vdrQ7Gxu5f4HWsyjGeCGxWOXYxq0BUVo';  // TODO Remove, should be passed from front end.
+var access_token = 'BQCEHJrI5j0mezGFGF2Y6KmtH5pnF2q27C2tIC3UKBjVkeGopW3isndi1rHtyxe8dlhOQRLn7r4iaykHB2D9NdYE-DwYbDf9OgH0iooM-ivKUhXIvTqFfmwc77dn75-p71rhQHfzJubaL4S-JoX85VNPQMBnaWwpntdA_B-L1uyDkUK1i9Ycv42u-cQWt6KG1NgSIORSAbM7SV0IlOrwklVRqs6QW3SoNjQMZ2cNFUqdL4MmvssP6mA';  // TODO Remove, should be passed from front end.
 
 app.get('/playlist', function (req, res) {
   var options = {
@@ -47,7 +47,7 @@ app.get('/:user/:playlist/tracks', function (req, res) {
       console.log(JSON.stringify(body));
       var tracks = [];
       for(var i = 0; i<body.items.length; i++){
-        var track = {trackID: body.items[i].track.id, trackName: body.items[i].track.name, artistName: body.items[i].track.artists[0].name};
+        var track = {trackID: body.items[i].track.id, trackName: body.items[i].track.name, artistName: body.items[i].track.artists[0].name, albumName: body.items[i].track.album.name, albumImage: body.items[i].track.album.images[0].url};
         tracks[i]=track;
       };
       res.end(JSON.stringify(tracks));
@@ -57,4 +57,3 @@ app.get('/:user/:playlist/tracks', function (req, res) {
 app.get('/:user/:playlist/:track', function (req, res) {
   res.end("HEJEHEJ");
 })
-
