@@ -12,6 +12,8 @@
     </style>
     
     <!-- local DOM goes here -->
+    <span>{{songName}}</span>
+    <span>{{artistName}}</span>
     <paper-button id='upButton' raised>Up</paper-button>
     <paper-button id='downButton' raised>Down</paper-button>
     <span>{{localVotes}}</span>
@@ -27,6 +29,12 @@
       localVotes: {
         type: Number,
         value: 0
+      },
+      songName: {
+        type: String
+      },
+      artistName: {
+        type: String
       }
     },
     listeners: {
