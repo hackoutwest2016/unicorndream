@@ -1,0 +1,16 @@
+{
+  "playlists": [
+    {
+      "playlistId": 1,
+      "userId": 1
+    },
+    {
+      "playlistId": 2,
+      "userId": 1
+    },
+    {
+      "playlistId": 3,
+      "userId": 1
+    }
+  ]
+}
