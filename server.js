@@ -62,8 +62,6 @@ var trackValue= 0;
 
 app.get('/:user/:playlist/:track', function (req, res) {
     var trackKey = req.params.track;
-    console.log(voteMap.get(trackKey));
-    console.log("rre params " + req.query.vote);
     if(req.query.vote == 'up'){
       if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
           trackValue = trackValue+1;
@@ -81,8 +79,32 @@ app.get('/:user/:playlist/:track', function (req, res) {
           voteMap.set(trackKey, trackValue);
         }
     }
-
       console.log(voteMap);
+      var options = {
+       url: '/'+req.params.user + '/' + req.params.playlist + '/tracks',
+       headers: { 'Authorization': 'Bearer ' + req.query.access_token },
+       json: true
+     };
+     console.log(options.url);
+     request.get(options, function(error, response, body){
+       var songPosition;
+       var songTotalVotes;
+       console.log(body);
+       console.log(response);
+       console.log(error);
+
+       //for(var i = 0; i<body.tracks.length; i++){
+        //if(body.tracks[i].trackName == trackKey){
+        //  songPosition = i;
+        //  break;
+      //  }
+    //  }
+
+       songTotalVotes = voteMap.get(trackKey);
+       //for(var j = 0; j<body.items.length; j++){
+      //   if(voteMap.get(body.items[i].id != ))
+      // }
+    });
          res.send("hejhej")
 });
 
