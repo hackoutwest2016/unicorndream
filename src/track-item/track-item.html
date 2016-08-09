@@ -1,7 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
-<dom-module id="button-container">
+<dom-module id="track-item">
 
   <template>
 
@@ -14,32 +14,34 @@
     <!-- local DOM goes here -->
     <paper-button id='upButton' raised>Up</paper-button>
     <paper-button id='downButton' raised>Down</paper-button>
-
+    <span>{{localVotes}}</span>
   </template>
 
   <script>
   Polymer({
-    is: 'button-container',
+    is: 'track-item',
+    ready: function() {
+      console.log("local votes " + this.localVotes);
+    },
+    properties: {
+      localVotes: {
+        type: Number,
+        value: 0
+      }
+    },
     listeners: {
       'upButton.tap': 'onUpVote',
       'downButton.tap': 'onDownVote'
     },
-    properties: {
-      plusOrMinus: {
-        value: 0,
-        type: Number,
-        notify: true
-      }
-    },
     onUpVote: function() {
       console.log("Upvote pressed");
-      this.plusOrMinus++;
-      console.log(this.plusOrMinus);
+      this.localVotes++;
+      console.log(this.localVotes);
     },
     onDownVote: function() {
       console.log("DownVote pressed");
-      this.plusOrMinus--;
-      console.log(this.plusOrMinus);
+      this.localVotes--;
+      console.log(this.localVotes);
     }
   });
   </script>
