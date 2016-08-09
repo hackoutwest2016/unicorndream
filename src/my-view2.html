@@ -11,6 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
 
 <dom-module id="my-view2">
 
@@ -45,38 +46,52 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         margin: 16px 0;
         color: #212121;
       }
-      ul {
-        list-style: none;
-      }
-      li {
-        display: flex;
-      }
-      li img {
-        border-radius: 50%;
-        margin-right: 40px;
-      }
-      h3 {
-        margin-right: 0 40px 0 0;
-        line-height: 80px;
-      }
-      li span {
-        line-height: 80px;
-      }
+      .avatar {
+       height: 40px;
+       width: 40px;
+       border-radius: 20px;
+       box-sizing: border-box;
+       background-color: #DDD;
+     }
+     .pad {
+       padding: 0 16px;
+       @apply(--layout-flex);
+       @apply(--layout-vertical);
+     }
+     .primary {
+       font-size: 16px;
+       font-weight: bold;
+     }
+     .shortText, .longText {
+      font-size: 14px;
+    },
+    .listItem {
+      @apply(--layout-horizontal);
+      margin: 16px 16px 0 16px;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: red;
+      border: 1px solid #ddd;
 
+    }
+  }
     </style>
 
     <div class="card">
       <div class="circle">2</div>
       <h1>View Two</h1>
+
       <template is="dom-bind">
         <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
-         <iron-list items="[[playlistData.platlists]]">
-           <template>
-             <div>
-               Name: [[item.playlistId]]
+        <iron-list items="[[playlistData.playlists]]" as="item">
+           <template is="dom-bind">
+             <div class="listItem">
+               <!--Name: [[item.playlistId]]-->
+               <paper-item>Name: [[item.playlistId]]</paper-item>
              </div>
            </template>
          </iron-list>
+
      </template>
     </div>
 
@@ -89,6 +104,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       is: 'my-view2'
 
     });
+
 
   </script>
 

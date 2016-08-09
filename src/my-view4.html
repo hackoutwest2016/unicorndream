@@ -1,0 +1,91 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+
+
+<dom-module id="my-view4">
+
+  <template>
+
+    <style>
+      :host {
+        display: block;
+        --paper-card-background-color: #1C1C1F;
+        --paper-card-header-color: white;
+
+      }
+      .background {
+        width: 100%;
+        height: 1000px;
+        background-image: url('../images/wowcolors3.jpg');
+        text-align: center;
+      }
+      paper-card {
+        width: 300px;
+        margin-top: 10%;
+        padding: 25px;
+        padding-bottom: 40px;
+      }
+
+
+      paper-card paper-button{
+
+        color: white;
+        background-color: #07A94A;
+        width: 90%;
+        margin: 30px auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 0.89px;
+
+      }
+
+
+  }
+    </style>
+
+    <div class="background">
+      <paper-card heading="" image="../images/logoUnicorn.svg">
+        <div class="card-content">
+          <paper-input label="email"></paper-input>
+          <paper-input label="password"></paper-input>
+        </div>
+        <div>
+          <paper-button>
+            LOG IN
+            </paper-button>
+        </div>
+      </paper-card>
+    </div>
+
+    <!--  <div class="examplePreload">
+      <iron-image preload fade sizing="cover" id="example-sizing-cover" src="../images/happy.jpg"></iron-image>
+    </div> -->
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      is: 'my-view4'
+
+    });
+
+
+  </script>
+
+</dom-module>
