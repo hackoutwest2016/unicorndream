@@ -61,25 +61,30 @@ var trackKey;
 var trackValue= 0;
 
 app.get('/:user/:playlist/:track', function (req, res) {
-  res.end("HEJEHEJ");
-  console.log("Trackid : " + req.params.track );
-  console.log("res : " + res.params);
-  var trackKey = req.params.track;
-console.log("trackkey " + voteMap.get(trackKey));
-if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
-  trackValue = trackValue+1;
-  voteMap.set(trackKey, trackValue);
-  console.log("TrackVaue in if " + trackValue);
-  console.log("trackkey in if " + voteMap.get(trackKey));
-} else{
-  trackValue=voteMap.get(trackKey) + 1;
-  voteMap.set(trackKey, trackValue);
-  console.log("trackkey in else " + voteMap.get(trackKey));
+    var trackKey = req.params.track;
+    console.log(voteMap.get(trackKey));
+    console.log("rre params " + req.query.vote);
+    if(req.query.vote == 'up'){
+      if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
+          trackValue = trackValue+1;
+          voteMap.set(trackKey, trackValue);
+      } else{
+          trackValue=voteMap.get(trackKey) + 1;
+          voteMap.set(trackKey, trackValue);
+        }
+    }else if (req.query.vote == 'down'){
+      if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
+          trackValue = trackValue-1;
+          voteMap.set(trackKey, trackValue);
+      } else{
+          trackValue=voteMap.get(trackKey) - 1;
+          voteMap.set(trackKey, trackValue);
+        }
+    }
 
-}
-  console.log("Votemap size: " + voteMap.size);
-
-})
+      console.log(voteMap);
+         res.send("hejhej")
+});
 
 // Login code below stolen from https://github.com/spotify/web-api-auth-examples
 var generateRandomString = function(length) {
