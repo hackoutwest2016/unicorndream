@@ -61,25 +61,52 @@ var trackKey;
 var trackValue= 0;
 
 app.get('/:user/:playlist/:track', function (req, res) {
-  res.end("HEJEHEJ");
-  console.log("Trackid : " + req.params.track );
-  console.log("res : " + res.params);
-  var trackKey = req.params.track;
-console.log("trackkey " + voteMap.get(trackKey));
-if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
-  trackValue = trackValue+1;
-  voteMap.set(trackKey, trackValue);
-  console.log("TrackVaue in if " + trackValue);
-  console.log("trackkey in if " + voteMap.get(trackKey));
-} else{
-  trackValue=voteMap.get(trackKey) + 1;
-  voteMap.set(trackKey, trackValue);
-  console.log("trackkey in else " + voteMap.get(trackKey));
+    var trackKey = req.params.track;
+    if(req.query.vote == 'up'){
+      if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
+          trackValue = trackValue+1;
+          voteMap.set(trackKey, trackValue);
+      } else{
+          trackValue=voteMap.get(trackKey) + 1;
+          voteMap.set(trackKey, trackValue);
+        }
+    }else if (req.query.vote == 'down'){
+      if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
+          trackValue = trackValue-1;
+          voteMap.set(trackKey, trackValue);
+      } else{
+          trackValue=voteMap.get(trackKey) - 1;
+          voteMap.set(trackKey, trackValue);
+        }
+    }
+      console.log(voteMap);
+      var options = {
+       url: '/'+req.params.user + '/' + req.params.playlist + '/tracks',
+       headers: { 'Authorization': 'Bearer ' + req.query.access_token },
+       json: true
+     };
+     console.log(options.url);
+     request.get(options, function(error, response, body){
+       var songPosition;
+       var songTotalVotes;
+       console.log(body);
+       console.log(response);
+       console.log(error);
 
-}
-  console.log("Votemap size: " + voteMap.size);
+       //for(var i = 0; i<body.tracks.length; i++){
+        //if(body.tracks[i].trackName == trackKey){
+        //  songPosition = i;
+        //  break;
+      //  }
+    //  }
 
-})
+       songTotalVotes = voteMap.get(trackKey);
+       //for(var j = 0; j<body.items.length; j++){
+      //   if(voteMap.get(body.items[i].id != ))
+      // }
+    });
+         res.send("hejhej")
+});
 
 // Login code below stolen from https://github.com/spotify/web-api-auth-examples
 var generateRandomString = function(length) {

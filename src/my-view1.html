@@ -56,15 +56,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="card">
       <div class="circle">1</div>
       <h1>View One</h1>
-      <p>Ut labores minimum atomorum pro. Laudem tibique ut has.
-      <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
       <template is="dom-bind">
-        <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
-        <iron-list items="[[playlistData.playlists]]" as="item">
+        <iron-ajax url="../data/tracks.json" last-response="{{tracksData}}" auto></iron-ajax>
+        <iron-list items="[[tracksData.tracks]]" as="item">
           <template>
             <div>
               ID: [[item.playlistId]]
-              <track-item></track-item>
+              <track-item 
+                song-name=[[item.trackName]]
+                artist-name=[[item.artistName]]
+                album-name=[[item.albumName]]
+                album-image=[[item.albumImage]]>
+              </track-item>
               __________________________________
             </div>
           </template>
@@ -110,21 +113,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </iron-data-table>
       </template>
     </div>
-    <div>Hej: {{testnumber}}</div>
-    <span>Hej: {{testnumber}}</span>
-    <span>Name: {{testnumber}}</span>
-
-    <paper-card heading={{testnumber}}>
-      <div class="card-content">Some content</div>
-      <div class="card-actions">
-        <paper-button>Some action</paper-button>
-      </div>
-    </paper-card>
-
-    <button-container></button-container>
-
   </template>
-
   <script>
 
     Polymer({
