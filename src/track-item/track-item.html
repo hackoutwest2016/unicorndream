@@ -1,5 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
 
 <dom-module id="track-item">
 
@@ -12,8 +13,10 @@
     </style>
     
     <!-- local DOM goes here -->
+    <iron-image src={{albumImage}} style="width:100px; height:100px;" sizing="contain"></iron-image>
     <span>{{songName}}</span>
     <span>{{artistName}}</span>
+    <span>{{albumName}}</span>
     <paper-button id='upButton' raised>Up</paper-button>
     <paper-button id='downButton' raised>Down</paper-button>
     <span>{{localVotes}}</span>
@@ -34,6 +37,12 @@
         type: String
       },
       artistName: {
+        type: String
+      },
+      albumName: {
+        type: String
+      },
+      albumImage: {
         type: String
       }
     },
