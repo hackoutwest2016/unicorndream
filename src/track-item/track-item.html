@@ -27,8 +27,6 @@
         @apply(--layout-justified);
       }
       .songArtist {
-        /*@apply(--layout-self-start);*/
-        @apply(--layout-start-justified);
         @apply(--layout-horizontal);
         @apply(--layout-center);
       }
@@ -41,7 +39,7 @@
     
     <!-- local DOM goes here -->
     <paper-material class="container">
-      <div>
+      <div class="songArtist">
         <iron-image src={{albumImage}} style="width:100px; height:100px;" sizing="contain"></iron-image>
         <span>{{songName}}</span>
         <span>{{artistName}}</span>
