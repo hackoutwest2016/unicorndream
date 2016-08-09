@@ -49,7 +49,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # Polmer
-bower_components
+# bower_components
 dist
 node_modules
 build
