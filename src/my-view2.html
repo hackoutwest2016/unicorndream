@@ -9,6 +9,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-list/iron-list.html">
 
 <dom-module id="my-view2">
 
@@ -43,13 +44,38 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         margin: 16px 0;
         color: #212121;
       }
+      ul {
+        list-style: none;
+      }
+      li {
+        display: flex;
+      }
+      li img {
+        border-radius: 50%;
+        margin-right: 40px;
+      }
+      h3 {
+        margin-right: 0 40px 0 0;
+        line-height: 80px;
+      }
+      li span {
+        line-height: 80px;
+      }
+
     </style>
 
     <div class="card">
       <div class="circle">2</div>
       <h1>View Two</h1>
-      <p>Ea duis bonorum nec, falli paulo aliquid ei eum.</p>
-      <p>Id nam odio natum malorum, tibique copiosae expetenda mel ea.Detracto suavitate repudiandae no eum. Id adhuc minim soluta nam.Id nam odio natum malorum, tibique copiosae expetenda mel ea.</p>
+      <iron-ajax url="data.json" last-response="{{data}}" auto></iron-ajax>
+       <iron-list items="[[data]]" as="item">
+         <template>
+           <div>
+             Name: [[item.name]]
+           </div>
+         </template>
+       </iron-list>
+
     </div>
 
   </template>
