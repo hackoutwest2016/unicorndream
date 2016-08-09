@@ -12,6 +12,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../bower_components/paper-material/paper-material.html">
+<link rel="import" href="track-item/track-item.html">
+
 
 <dom-module id="my-view2">
 
@@ -30,22 +33,33 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         background-color: #fff;
         color: #757575;
       }
-      .circle {
+      paper-material + paper-material {
+        padding: 10px;
+      }
+      paper-material {
         display: inline-block;
-        height: 64px;
-        width: 64px;
-        border-radius: 50%;
-        background: #ddd;
-        line-height: 64px;
-        font-size: 30px;
-        color: #555;
-        text-align: center;
+        background: white;
+        box-sizing: border-box;
+        margin: 8px;
+        padding: 16px;
+        border-radius: 2px;
+        width: 100%;
       }
   }
     </style>
 
-    <div class="card">
-    </div>
+
+      <template is="dom-bind">
+        <iron-ajax url="../data/playlist.json" last-response="{{data}}" auto></iron-ajax>
+        <iron-list items="[[data.playlists]]" as="item">
+          <template>
+            <div>
+              <paper-material elevation="2">ID: [[item.playlistName]]</paper-material>
+            </div>
+          </template>
+        </iron-list>
+      </template>
+
 
   </template>
 
