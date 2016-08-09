@@ -12,6 +12,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/iron-data-table/iron-data-table.html">
+<link rel="import" href="../bower_components/iron-input/iron-input.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="button-container/button-container.html">
 
 <dom-module id="my-view1">
 
@@ -55,28 +58,54 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
       <template is="dom-bind">
         <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
-        <iron-data-table items="[[playlistData.playlists]]">
+        <iron-data-table items="[[playlistData.playlists]]" selection-enabled>
           <data-table-column name="Playlist Id" filter-by="playlistId">
             <template>[[item.playlistId]]</template>
           </data-table-column>
           <data-table-column name="User Id" filter-by="userId">
             <template>[[item.userId]]</template>
           </data-table-column>
-          <data-table-column name="Votes">
+          <data-table-column name="Global Votes">
+            <template>
+              34
+            </template>
+          </data-table-column>
+          <data-table-column name="Local Votes">
             <template>
               1
-              <paper-button>Upvote</paper-button>
-              <paper-button>Downvote</paper-button>
+            </template>
+          </data-table-column>
+          <data-table-column name="Vote Buttons">
+            <template>
+              <button-container></button-container>
+<!--               <paper-button>Upvote</paper-button>
+              <paper-button>Downvote</paper-button> -->
             </template>
           </data-table-column>
           <data-table-column name="Index">
             <template>
-              {{this.index2id(index)}}
+              <!-- <div>{{this.testnumber}}</div> -->
+              <!-- <span>Hej +  {{testnumber}}</span> -->
+              <span>{{index}}</span>
+              <div hidden="[[!selected]]">Selected</div>
+              <!-- {{this.index2id(index)}} -->
             </template>
           </data-table-column>
         </iron-data-table>
       </template>
     </div>
+    <div>Hej: {{testnumber}}</div>
+    <span>Hej: {{testnumber}}</span>
+    <span>Name: {{testnumber}}</span>
+
+    <paper-card heading={{testnumber}}>
+      <div class="card-content">Some content</div>
+      <div class="card-actions">
+        <paper-button>Some action</paper-button>
+      </div>
+    </paper-card>
+
+    <button-container></button-container>
 
   </template>
 
@@ -86,13 +115,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       is: 'my-view1',
 
+      properties: {
+        testnumber: {
+          type: String,
+          value: "hej",
+          notify: true
+        }
+      },
+
       ready: function() {
         console.log("View 1 is ready");
+        console.log(this.testnumber);
+        this.index2id(this.testnumber);
       },
 
       index2id: function(index) {
         console.log("index = " + index);
-        return "_" + index;
+        // return "_" + index;
       }
 
     });
