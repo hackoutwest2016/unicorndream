@@ -9,6 +9,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/iron-data-table/iron-data-table.html">
 
@@ -62,7 +63,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <template>[[item.userId]]</template>
           </data-table-column>
           <data-table-column name="Votes">
-            <template>1</template>
+            <template>
+              1
+              <paper-button>Upvote</paper-button>
+              <paper-button>Downvote</paper-button>
+            </template>
+          </data-table-column>
+          <data-table-column name="Index">
+            <template>
+              {{index}}
+            </template>
           </data-table-column>
         </iron-data-table>
       </template>
