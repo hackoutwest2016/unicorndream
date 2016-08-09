@@ -10,6 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 
 <dom-module id="my-view2">
 
@@ -67,15 +68,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="card">
       <div class="circle">2</div>
       <h1>View Two</h1>
-      <iron-ajax url="data.json" last-response="{{data}}" auto></iron-ajax>
-       <iron-list items="[[data]]" as="item">
-         <template>
-           <div>
-             Name: [[item.name]]
-           </div>
-         </template>
-       </iron-list>
-
+      <template is="dom-bind">
+        <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
+         <iron-list items="[[playlistData.platlists]]">
+           <template>
+             <div>
+               Name: [[item.playlistId]]
+             </div>
+           </template>
+         </iron-list>
+     </template>
     </div>
 
   </template>
