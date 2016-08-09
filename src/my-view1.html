@@ -9,6 +9,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/iron-data-table/iron-data-table.html">
 
 <dom-module id="my-view1">
 
@@ -50,6 +53,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h1>View One</h1>
       <p>Ut labores minimum atomorum pro. Laudem tibique ut has.
       <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
+      <template is="dom-bind">
+        <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
+        <iron-data-table items="[[playlistData.playlists]]">
+          <data-table-column name="Playlist Id" filter-by="playlistId">
+            <template>[[item.playlistId]]</template>
+          </data-table-column>
+          <data-table-column name="User Id" filter-by="userId">
+            <template>[[item.userId]]</template>
+          </data-table-column>
+          <data-table-column name="Votes">
+            <template>
+              1
+              <paper-button>Upvote</paper-button>
+              <paper-button>Downvote</paper-button>
+            </template>
+          </data-table-column>
+          <data-table-column name="Index">
+            <template>
+              {{index}}
+            </template>
+          </data-table-column>
+        </iron-data-table>
+      </template>
     </div>
 
   </template>
