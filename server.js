@@ -6,11 +6,8 @@ var request = require('request');
 var express = require('express');
 var cookieParser = require('cookie-parser');
 var querystring = require('querystring');
-var fs = require("fs");
 var stateKey = 'spotify_auth_state';
 var app = express();
-app.use(express.static(__dirname + '/public'))
-   .use(cookieParser());
 
 app.get('/:user/playlist', function (req, res) {
   var options = {
@@ -57,8 +54,29 @@ app.get('/:user/:playlist/tracks', function (req, res) {
    });
 })
 
+var voteMap = new Map();
+var trackKey;
+var trackValue= 0;
+
 app.get('/:user/:playlist/:track', function (req, res) {
   res.end("HEJEHEJ");
+  console.log("Trackid : " + req.params.track );
+  console.log("res : " + res.params);
+  var trackKey = req.params.track;
+console.log("trackkey " + voteMap.get(trackKey));
+if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
+  trackValue = trackValue+1;
+  voteMap.set(trackKey, trackValue);
+  console.log("TrackVaue in if " + trackValue);
+  console.log("trackkey in if " + voteMap.get(trackKey));
+} else{
+  trackValue=voteMap.get(trackKey) + 1;
+  voteMap.set(trackKey, trackValue);
+  console.log("trackkey in else " + voteMap.get(trackKey));
+
+}
+  console.log("Votemap size: " + voteMap.size);
+
 })
 
 // Login code below stolen from https://github.com/spotify/web-api-auth-examples
