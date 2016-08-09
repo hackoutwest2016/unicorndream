@@ -80,11 +80,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <paper-material id="playlistHeader" elevation="1">
           <h1>Choose a playlist!</h1>
           </paper-material>
-        <hr>
         <iron-ajax url="../data/playlist.json" last-response="{{data}}" auto></iron-ajax>
         <iron-list items="[[data.playlists]]" as="item">
           <template>
             <div>
+              <hr>
               <paper-material elevation="1">
                 <div class="playlistName playlistItem">
                   <h2>[[item.playlistName]]</h2>
@@ -93,7 +93,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   <paper-button >Choose</paper-button>
                 </div>
               </paper-material>
-              <hr>
             </div>
           </template>
         </iron-list>
