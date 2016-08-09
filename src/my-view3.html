@@ -9,6 +9,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/iron-list/iron-list.html">
 
 <dom-module id="my-view3">
 
@@ -50,6 +52,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h1>View Three</h1>
       <p>Modus commodo minimum eum te, vero utinam assueverit per eu.</p>
       <p>Ea duis bonorum nec, falli paulo aliquid ei eum.Has at minim mucius aliquam, est id tempor laoreet.Pro saepe pertinax ei, ad pri animal labores suscipiantur.</p>
+
+      <template is="dom-bind">
+        <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
+        <iron-list items="[[playlistData.playlists]]" as="item">
+          <template>
+            <div>
+              Name: [[item.playlistId]]
+            </div>
+          </template>
+        </iron-list>
+      </template>
     </div>
 
   </template>
