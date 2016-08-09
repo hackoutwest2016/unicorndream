@@ -24,7 +24,7 @@ app.get('/:user/playlist', function (req, res) {
     var counter = 0;
     for (var i = 0; i < body.items.length; i++){
       if (body.items[i].collaborative){
-        var playlist = {playlistID: body.items[i].id, userID: body.items[i].owner.id, playlistName: body.items[i].name};
+        var playlist = {playlistID: body.items[i].id, userID: body.items[i].owner.id, playlistName: body.items[i].name, playlistImage: body.items[i].images[0].url};
         playlists[counter]=playlist;
         counter++;
       }
@@ -50,7 +50,7 @@ app.get('/:user/:playlist/tracks', function (req, res) {
       console.log(JSON.stringify(body));
       var tracks = [];
       for(var i = 0; i<body.items.length; i++){
-        var track = {trackID: body.items[i].track.id, trackName: body.items[i].track.name, artistName: body.items[i].track.artists[0].name};
+        var track = {trackID: body.items[i].track.id, trackName: body.items[i].track.name, artistName: body.items[i].track.artists[0].name, albumName: body.items[i].track.album.name, albumImage: body.items[i].track.album.images[0].url};
         tracks[i]=track;
       };
       res.end(JSON.stringify(tracks));
