@@ -13,8 +13,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/iron-data-table/iron-data-table.html">
 <link rel="import" href="../bower_components/iron-input/iron-input.html">
+<link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
 <link rel="import" href="button-container/button-container.html">
+<link rel="import" href="track-item/track-item.html">
 
 <dom-module id="my-view1">
 
@@ -58,6 +60,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
       <template is="dom-bind">
         <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
+        <iron-list items="[[playlistData.playlists]]" as="item">
+          <template>
+            <div>
+              ID: [[item.playlistId]]
+              <track-item></track-item>
+              __________________________________
+            </div>
+          </template>
+        </iron-list>
+      </template>
+
+      <template is="dom-bind">
+        <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
         <iron-data-table items="[[playlistData.playlists]]" selection-enabled>
           <data-table-column name="Playlist Id" filter-by="playlistId">
             <template>[[item.playlistId]]</template>
@@ -78,6 +93,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <data-table-column name="Vote Buttons">
             <template>
               <button-container></button-container>
+              <span>{{plusOrMinus}}</span>
 <!--               <paper-button>Upvote</paper-button>
               <paper-button>Downvote</paper-button> -->
             </template>
@@ -133,6 +149,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         console.log("index = " + index);
         // return "_" + index;
       }
+
+      // onDownVote: function() {
+      //   console.log("DownVote pressed");
+      // }
 
     });
 
