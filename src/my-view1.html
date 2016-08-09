@@ -71,7 +71,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </data-table-column>
           <data-table-column name="Index">
             <template>
-              {{index}}
+              {{this.index2id(index)}}
             </template>
           </data-table-column>
         </iron-data-table>
@@ -84,7 +84,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     Polymer({
 
-      is: 'my-view1'
+      is: 'my-view1',
+
+      ready: function() {
+        console.log("View 1 is ready");
+      },
+
+      index2id: function(index) {
+        console.log("index = " + index);
+        return "_" + index;
+      }
 
     });
 
