@@ -136,19 +136,28 @@ app.get('/:user/:playlist/:track', function (req, res) {
                 if(songTotalVotes>0){ //if song is voted up
                   console.log("songTotalVotes>0");
                   console.log("voteap votes" + voteMap.get(body.tracks[j].trackID));
-                  if(songTotalVotes >= voteMap.get(body.tracks[j].trackID) ||      voteMap.get(body.tracks[j].trackID) == undefined){
+                  if((songTotalVotes >= voteMap.get(body.tracks[j].trackID) ||      voteMap.get(body.tracks[j].trackID) == undefined) && body.tracks[j].trackID != trackKey){
                	 	  var insertPosition = j;
                 		  insertPosition=j;
                 		  break;
               	   }
-                }else if (songTotalVotes<=0){
+                }else if (songTotalVotes<0){
                   console.log("songTotalVotes<=0");
                   console.log("voteMap votes" + voteMap.get(body.tracks[j].trackID));
+                  console.log("vote ID " + body.tracks[j].trackID + " " + trackKey )
               	 if(songTotalVotes >= voteMap.get(body.tracks[j].trackID) && body.tracks[j].trackID != trackKey){
               		  insertPosition = j;
               		  break;
                   }
+                } else if (songTotalVotes==0){
+                  if(voteMap.get(body.tracks[j].trackID) == undefined){
+                    insertPosition = j;
+                    break;
+                  }
                 }
+            }
+            if(insertPosition == undefined){
+              insertPosition = body.tracks.length;
             }
         }
         console.log("SongPosition: " + songPosition);
@@ -159,19 +168,14 @@ app.get('/:user/:playlist/:track', function (req, res) {
                   'insert_before': insertPosition
                 }};
                 request(options, function(error, response, body){
-                  // console.log("Response" + JSON.stringify(response));
-                  // console.log("Body " + JSON.stringify(body));
-                  // console.log("error " + error);
                 })
 
 
         setTimeout(function(){
           res.redirect('/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token );
-        }, 5000);
+        }, 500);
     });
-  } //if-sats
-
-        //  res.send("hejhej")
+  }
 });
 
 // Login code below stolen from https://github.com/spotify/web-api-auth-examples
