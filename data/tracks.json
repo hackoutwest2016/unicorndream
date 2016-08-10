@@ -1,31 +1,769 @@
 {
   "tracks": [
     {
-      "voteUp": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/6SwgsjeuNAnU9F4WUTlR6p?vote=up&access_token=access_token",
-      "voteDown": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/6SwgsjeuNAnU9F4WUTlR6p?vote=down&access_token=access_token",
-      "trackID": "6SwgsjeuNAnU9F4WUTlR6p",
-      "trackName": "Where You Hide - Radio Edit",
-      "artistName": "Reorder",
-      "albumName": "Where You Hide",
-      "albumImage": "https://i.scdn.co/image/4652c5dcfeeb8962bfec52f8563726c0eee66a62"
+      "trackID": "2E4pGT15X6ElliPQIxSGaq",
+      "trackName": "Din tid kommer",
+      "artistName": "Håkan Hellström",
+      "albumName": "Din tid kommer",
+      "albumImage": "https://i.scdn.co/image/deab63fe4409c17f09d5e5cb8360cbd5a395d1a4",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2E4pGT15X6ElliPQIxSGaq?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2E4pGT15X6ElliPQIxSGaq?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
     },
     {
-      "voteUp": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/4aKKNhuJJ8HYfnFoUcTFzj?vote=up&access_token=access_token",
-      "voteDown": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/4aKKNhuJJ8HYfnFoUcTFzj?vote=down&access_token=access_token",      
-      "trackID": "4aKKNhuJJ8HYfnFoUcTFzj",
-      "trackName": "Iron",
-      "artistName": "Woodkid",
-      "albumName": "The Golden Age",
-      "albumImage": "https://i.scdn.co/image/d0f27955b77523d14a6a0596536a0a227854e372"
+      "trackID": "0Hz0ySp6XYrBhEQPU16Hz8",
+      "trackName": "Valborg",
+      "artistName": "Håkan Hellström",
+      "albumName": "Det kommer aldrig va över för mig",
+      "albumImage": "https://i.scdn.co/image/c7eb46e6ea0c4fa929c95a6f4b0c991d818fc5a2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0Hz0ySp6XYrBhEQPU16Hz8?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0Hz0ySp6XYrBhEQPU16Hz8?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
     },
     {
-      "voteUp": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/1ujP2oRzsv5gf519lOlnmN?vote=up&access_token=access_token",
-      "voteDown": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/1ujP2oRzsv5gf519lOlnmN?vote=down&access_token=access_token",
-      "trackID": "1ujP2oRzsv5gf519lOlnmN",
-      "trackName": "Fly To New York - Above & Beyond Vs. Jason Ross Radio Edit",
-      "artistName": "Above & Beyond",
-      "albumName": "Fly To New York",
-      "albumImage": "https://i.scdn.co/image/2c2aad350b7acbd1fdb81acb5e55ba7573ce1e17"
+      "trackID": "3SjXx3rbNGk8nCho8YEoz5",
+      "trackName": "Det kommer aldrig va över för mig",
+      "artistName": "Håkan Hellström",
+      "albumName": "Det kommer aldrig va över för mig",
+      "albumImage": "https://i.scdn.co/image/c7eb46e6ea0c4fa929c95a6f4b0c991d818fc5a2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3SjXx3rbNGk8nCho8YEoz5?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3SjXx3rbNGk8nCho8YEoz5?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0WGzoXYjWNl5lZKiu376oV",
+      "trackName": "Vi mot världen",
+      "artistName": "Veronica Maggio",
+      "albumName": "Den första är alltid gratis",
+      "albumImage": "https://i.scdn.co/image/50cc1e02eb1a4af701f5276a226242ff83811a67",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0WGzoXYjWNl5lZKiu376oV?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0WGzoXYjWNl5lZKiu376oV?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "7MzmBmyI9KkyQJaPNLdtUi",
+      "trackName": "17 år",
+      "artistName": "Veronica Maggio",
+      "albumName": "Och vinnaren är...",
+      "albumImage": "https://i.scdn.co/image/472b8ac6b6637f31e25f51714ef464ee1069cf6f",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7MzmBmyI9KkyQJaPNLdtUi?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7MzmBmyI9KkyQJaPNLdtUi?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5MEuFY2DxrozPEgGpR8Fji",
+      "trackName": "Välkommen in",
+      "artistName": "Veronica Maggio",
+      "albumName": "Satan i gatan (Bonus Version)",
+      "albumImage": "https://i.scdn.co/image/79e616406420201519d8e4022e1d30a98e85c5cd",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5MEuFY2DxrozPEgGpR8Fji?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5MEuFY2DxrozPEgGpR8Fji?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0mUyMawtxj1CJ76kn9gIZK",
+      "trackName": "Bad Day",
+      "artistName": "Daniel Powter",
+      "albumName": "Daniel Powter (U.S. Release)",
+      "albumImage": "https://i.scdn.co/image/b9756b5c1cac2bb5c85b55209c7e0c085782f273",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0mUyMawtxj1CJ76kn9gIZK?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0mUyMawtxj1CJ76kn9gIZK?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "66Bzmhj4cOinK5bxjx5DAK",
+      "trackName": "Release Me",
+      "artistName": "Oh Laura",
+      "albumName": "A Song Inside My Head, A Demon In My Bed",
+      "albumImage": "https://i.scdn.co/image/42880b7d81d3e939b7f8e1d611017a69559e1132",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/66Bzmhj4cOinK5bxjx5DAK?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/66Bzmhj4cOinK5bxjx5DAK?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3Q06XfNgOjBQAyPV4GbYaR",
+      "trackName": "Allt jag behöver",
+      "artistName": "Miriam Bryant",
+      "albumName": "Hisingen och hem igen",
+      "albumImage": "https://i.scdn.co/image/4e381522171ce3c1819d6721533cb08dab5dc9a2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3Q06XfNgOjBQAyPV4GbYaR?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3Q06XfNgOjBQAyPV4GbYaR?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "1SZDQMXX1FrA97YY7Lt3Fj",
+      "trackName": "Ett sista glas",
+      "artistName": "Miriam Bryant",
+      "albumName": "Hisingen och hem igen",
+      "albumImage": "https://i.scdn.co/image/4e381522171ce3c1819d6721533cb08dab5dc9a2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1SZDQMXX1FrA97YY7Lt3Fj?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1SZDQMXX1FrA97YY7Lt3Fj?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6IOitwRrqNNymujyIZQ3Zn",
+      "trackName": "Life Is A Flower",
+      "artistName": "Miriam Bryant",
+      "albumName": "Hisingen och hem igen",
+      "albumImage": "https://i.scdn.co/image/4e381522171ce3c1819d6721533cb08dab5dc9a2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6IOitwRrqNNymujyIZQ3Zn?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6IOitwRrqNNymujyIZQ3Zn?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "45V4Mk7vZV2b9JfSWuUX9m",
+      "trackName": "Graduation (Friends Forever)",
+      "artistName": "Vitamin C",
+      "albumName": "Vitamin C",
+      "albumImage": "https://i.scdn.co/image/a9d172c5a423a73daf5feb5de822c93b3b960b68",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/45V4Mk7vZV2b9JfSWuUX9m?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/45V4Mk7vZV2b9JfSWuUX9m?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6JV2JOEocMgcZxYSZelKcc",
+      "trackName": "Can't Stop the Feeling! (Original Song from DreamWorks Animation's \"TROLLS\")",
+      "artistName": "Justin Timberlake",
+      "albumName": "Can't Stop the Feeling! (Original Song from DreamWorks Animation's \"TROLLS\")",
+      "albumImage": "https://i.scdn.co/image/d013904153a1c3771a7f851132b090254c39a51b",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6JV2JOEocMgcZxYSZelKcc?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6JV2JOEocMgcZxYSZelKcc?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "1TPUbLdzpfgF7wrPEXIAAB",
+      "trackName": "Don't You Need Somebody (feat. Enrique Iglesias, R. City, Serayah & Shaggy)",
+      "artistName": "RedOne",
+      "albumName": "Don't You Need Somebody (feat. Enrique Iglesias, R. City, Serayah & Shaggy)",
+      "albumImage": "https://i.scdn.co/image/ee3f13be1100ed247c0da7ed7216348a4530affb",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1TPUbLdzpfgF7wrPEXIAAB?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1TPUbLdzpfgF7wrPEXIAAB?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "77xHMcAvzgm9n5FQtNpHlN",
+      "trackName": "Bara Få Va Mig Själv",
+      "artistName": "Laleh",
+      "albumName": "Bara Få Va Mig Själv",
+      "albumImage": "https://i.scdn.co/image/d91753c501bd9a62abb47d79fe367f7c13f88116",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/77xHMcAvzgm9n5FQtNpHlN?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/77xHMcAvzgm9n5FQtNpHlN?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0rHVd8h0cFwgLgPFem6S60",
+      "trackName": "Girls Like (feat. Zara Larsson)",
+      "artistName": "Tinie Tempah",
+      "albumName": "Girls Like (feat. Zara Larsson)",
+      "albumImage": "https://i.scdn.co/image/3d9073469a524822072092f1eee7da246ef303b3",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0rHVd8h0cFwgLgPFem6S60?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0rHVd8h0cFwgLgPFem6S60?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0VzzzYWjBWofMsSB77pDo4",
+      "trackName": "Lush Life",
+      "artistName": "Zara Larsson",
+      "albumName": "Lush Life",
+      "albumImage": "https://i.scdn.co/image/bd16eae9cbf844b333664d0b715dde7f289e7d26",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0VzzzYWjBWofMsSB77pDo4?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0VzzzYWjBWofMsSB77pDo4?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0CQTJlVR2tPLsZ8mtpY8Cr",
+      "trackName": "Never Forget You",
+      "artistName": "Zara Larsson",
+      "albumName": "Never Forget You",
+      "albumImage": "https://i.scdn.co/image/7b3ff5759ab4525984c00b868d85ed441e128eca",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0CQTJlVR2tPLsZ8mtpY8Cr?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0CQTJlVR2tPLsZ8mtpY8Cr?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "27SdWb2rFzO6GWiYDBTD9j",
+      "trackName": "Cheap Thrills",
+      "artistName": "Sia",
+      "albumName": "This Is Acting",
+      "albumImage": "https://i.scdn.co/image/4b37c81ce1579532d39ef417141fd883357e6a6d",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/27SdWb2rFzO6GWiYDBTD9j?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/27SdWb2rFzO6GWiYDBTD9j?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5DiYBPWepaplpBshNhtaGI",
+      "trackName": "Mitt team - Sveriges officiella kamplåt till fotbolls- EM 2016",
+      "artistName": "Frej Larsson",
+      "albumName": "Mitt Team (Sveriges officiella kamplåt till fotbolls- EM 2016)",
+      "albumImage": "https://i.scdn.co/image/dc30ff5dfb4086456799d40f419a1e2a8df41c3c",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5DiYBPWepaplpBshNhtaGI?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5DiYBPWepaplpBshNhtaGI?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2c1EGwagV1sT73NimGsqIh",
+      "trackName": "Ain't No Saint",
+      "artistName": "Peg Parnevik",
+      "albumName": "Ain't No Saint",
+      "albumImage": "https://i.scdn.co/image/2a0e9f9232b321f8467e36a52127012ac769482f",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2c1EGwagV1sT73NimGsqIh?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2c1EGwagV1sT73NimGsqIh?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3s4U7OHV7gnj42VV72eSZ6",
+      "trackName": "Rather Be (feat. Jess Glynne)",
+      "artistName": "Clean Bandit",
+      "albumName": "Rather Be (feat. Jess Glynne)",
+      "albumImage": "https://i.scdn.co/image/a1babd2524962d4703a6c1aa9dfddcc2018713fd",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3s4U7OHV7gnj42VV72eSZ6?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3s4U7OHV7gnj42VV72eSZ6?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "386RUes7n1uM1yfzgeUuwp",
+      "trackName": "The Lazy Song",
+      "artistName": "Bruno Mars",
+      "albumName": "Doo-Wops & Hooligans",
+      "albumImage": "https://i.scdn.co/image/3217429ca3b72ea697358f8e598d1ee44b6e018e",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/386RUes7n1uM1yfzgeUuwp?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/386RUes7n1uM1yfzgeUuwp?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "47Slg6LuqLaX0VodpSCvPt",
+      "trackName": "Just the Way You Are",
+      "artistName": "Bruno Mars",
+      "albumName": "Doo-Wops & Hooligans",
+      "albumImage": "https://i.scdn.co/image/3217429ca3b72ea697358f8e598d1ee44b6e018e",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/47Slg6LuqLaX0VodpSCvPt?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/47Slg6LuqLaX0VodpSCvPt?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4G2Hbfwvn3oH7LxxPXjjGn",
+      "trackName": "Treasure",
+      "artistName": "Bruno Mars",
+      "albumName": "Unorthodox Jukebox",
+      "albumImage": "https://i.scdn.co/image/a878cea3109affaf05b10c39bc19b8def042f127",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4G2Hbfwvn3oH7LxxPXjjGn?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4G2Hbfwvn3oH7LxxPXjjGn?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "7pYfyrMNPn3wtoCyqcTVoI",
+      "trackName": "Moves Like Jagger - Studio Recording From The Voice Performance",
+      "artistName": "Maroon 5",
+      "albumName": "Hands All Over (Revised International Standard version)",
+      "albumImage": "https://i.scdn.co/image/c91c1ab9f3be1b18940f2ee9e7864baaeeea9762",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7pYfyrMNPn3wtoCyqcTVoI?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7pYfyrMNPn3wtoCyqcTVoI?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "68sFVD0NzRLOo7IX4RF9B3",
+      "trackName": "Vart jag mig i världen vänder",
+      "artistName": "Den svenska björnstammen",
+      "albumName": "Ett fel närmare rätt",
+      "albumImage": "https://i.scdn.co/image/fed95b5eabfa1bc60d1d3494e0e7a54a20a2f9f9",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/68sFVD0NzRLOo7IX4RF9B3?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/68sFVD0NzRLOo7IX4RF9B3?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5hRH9hB920H3OlpfC7fBbU",
+      "trackName": "Svalkar vinden",
+      "artistName": "Den svenska björnstammen",
+      "albumName": "Ett fel närmare rätt",
+      "albumImage": "https://i.scdn.co/image/fed95b5eabfa1bc60d1d3494e0e7a54a20a2f9f9",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5hRH9hB920H3OlpfC7fBbU?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5hRH9hB920H3OlpfC7fBbU?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2Pavqy0vPxGilGe0IIetdP",
+      "trackName": "Geronimo",
+      "artistName": "Sheppard",
+      "albumName": "Geronimo",
+      "albumImage": "https://i.scdn.co/image/2429efcc8f665d959f1545bf407d79a1b32dba63",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2Pavqy0vPxGilGe0IIetdP?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2Pavqy0vPxGilGe0IIetdP?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4o6BgsqLIBViaGVbx5rbRk",
+      "trackName": "You Make My Dreams",
+      "artistName": "Daryl Hall & John Oates",
+      "albumName": "Voices",
+      "albumImage": "https://i.scdn.co/image/b6f427125f28955c2419830d770977e452c10cd5",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4o6BgsqLIBViaGVbx5rbRk?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4o6BgsqLIBViaGVbx5rbRk?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "66S14BkJDxgkYxLl5DCqOz",
+      "trackName": "I'm Gonna Be (500 Miles)",
+      "artistName": "The Proclaimers",
+      "albumName": "Finest",
+      "albumImage": "https://i.scdn.co/image/b5cee1b28f2bd1e0c1e399465d16f09e1d3ef13e",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/66S14BkJDxgkYxLl5DCqOz?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/66S14BkJDxgkYxLl5DCqOz?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3cfOd4CMv2snFaKAnMdnvK",
+      "trackName": "All Star",
+      "artistName": "Smash Mouth",
+      "albumName": "Astro Lounge",
+      "albumImage": "https://i.scdn.co/image/ede1f1d01b8024ef1f9ae3fea1b25bfe083783bd",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3cfOd4CMv2snFaKAnMdnvK?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3cfOd4CMv2snFaKAnMdnvK?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "1FHNctV68GUNLgXclG2DtR",
+      "trackName": "Dancing in the Moonlight",
+      "artistName": "Toploader",
+      "albumName": "Dancing In The Moonlight: The Best Of Toploader",
+      "albumImage": "https://i.scdn.co/image/b5008ce126fbdca6d61a52dc85b24a47a0501467",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1FHNctV68GUNLgXclG2DtR?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1FHNctV68GUNLgXclG2DtR?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0xM88xobymkMgg46MStfnV",
+      "trackName": "Hey There Delilah",
+      "artistName": "Plain White T's",
+      "albumName": "Every Second Counts",
+      "albumImage": "https://i.scdn.co/image/452f8a856c1ce340e121ef4b68bb79e47e6cd6ba",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0xM88xobymkMgg46MStfnV?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0xM88xobymkMgg46MStfnV?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2vz1CsL5WBsbpBcwgboTAw",
+      "trackName": "Footloose",
+      "artistName": "Kenny Loggins",
+      "albumName": "Footloose (15th Anniversary Collectors' Edition)",
+      "albumImage": "https://i.scdn.co/image/0e43a7b335a88024a2647a1bf7036036a0517602",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2vz1CsL5WBsbpBcwgboTAw?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2vz1CsL5WBsbpBcwgboTAw?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3xKsPtA5XG91Zlh0SyycmM",
+      "trackName": "Come On Eileen - Single Edit",
+      "artistName": "Dexys Midnight Runners",
+      "albumName": "Come On Eileen / Dubious",
+      "albumImage": "https://i.scdn.co/image/ba20771c7be258ef464ce0730386b49155b1b4c5",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3xKsPtA5XG91Zlh0SyycmM?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3xKsPtA5XG91Zlh0SyycmM?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "7ulZJytSQ43kwDjT2AL0LZ",
+      "trackName": "A Thousand Miles",
+      "artistName": "Vanessa Carlton",
+      "albumName": "Best Of",
+      "albumImage": "https://i.scdn.co/image/91bbecc35f3baff3ea5c26b88a38705421438c85",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7ulZJytSQ43kwDjT2AL0LZ?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7ulZJytSQ43kwDjT2AL0LZ?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0eGsygTp906u18L0Oimnem",
+      "trackName": "Mr. Brightside",
+      "artistName": "The Killers",
+      "albumName": "Hot Fuss",
+      "albumImage": "https://i.scdn.co/image/ac68a9e4a867ec3ce8249cd90a2d7c73755fb487",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0eGsygTp906u18L0Oimnem?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0eGsygTp906u18L0Oimnem?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4aVuWgvD0X63hcOCnZtNFA",
+      "trackName": "Hold the Line",
+      "artistName": "Toto",
+      "albumName": "Toto",
+      "albumImage": "https://i.scdn.co/image/419366b78e2350c087fcf3674ecea4d5abda7611",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4aVuWgvD0X63hcOCnZtNFA?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4aVuWgvD0X63hcOCnZtNFA?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "1nWFYeuHcBsZHvVFMCu05C",
+      "trackName": "ABC",
+      "artistName": "The Jackson 5",
+      "albumName": "CLERKS II (Music From The Motion Picture)",
+      "albumImage": "https://i.scdn.co/image/0bcf6480319ad3b9b18d88750077dfaa09be08bc",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1nWFYeuHcBsZHvVFMCu05C?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1nWFYeuHcBsZHvVFMCu05C?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4PgPnzbAgjCQ2eA6YAWcUw",
+      "trackName": "MMMBop - Single Version",
+      "artistName": "Hanson",
+      "albumName": "Guilty Pleasures (International Version)",
+      "albumImage": "https://i.scdn.co/image/075717257a7ee6a19f1a84ec9fe4f1eed1b0c9a0",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4PgPnzbAgjCQ2eA6YAWcUw?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4PgPnzbAgjCQ2eA6YAWcUw?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3H7sv3Krffn15BufUuXzf3",
+      "trackName": "Hey Jude - Remastered 2015",
+      "artistName": "The Beatles",
+      "albumName": "1 (Remastered)",
+      "albumImage": "https://i.scdn.co/image/4e6916b16ce51c241c16f4d642360443aeb7b4df",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3H7sv3Krffn15BufUuXzf3?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3H7sv3Krffn15BufUuXzf3?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "01iyCAUm8EvOFqVWYJ3dVX",
+      "trackName": "Dancing Queen",
+      "artistName": "ABBA",
+      "albumName": "Arrival",
+      "albumImage": "https://i.scdn.co/image/1cb3d4e9b45c0526655b712e8e7a9154a0367b42",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/01iyCAUm8EvOFqVWYJ3dVX?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/01iyCAUm8EvOFqVWYJ3dVX?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4bykJp7dORR4GoLCZiQbU0",
+      "trackName": "Take A Chance On Me",
+      "artistName": "ABBA",
+      "albumName": "The Album",
+      "albumImage": "https://i.scdn.co/image/c090ccc0c3fd53318cac7edf0f4ce9a0e80b5836",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4bykJp7dORR4GoLCZiQbU0?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4bykJp7dORR4GoLCZiQbU0?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2zKGX0JUpdfarWTFxVygzz",
+      "trackName": "ccSatellites - Live accoustic version",
+      "artistName": "September",
+      "albumName": "Gold",
+      "albumImage": "https://i.scdn.co/image/aad25d43a33c5cc968bd823e349391539af03c25",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2zKGX0JUpdfarWTFxVygzz?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2zKGX0JUpdfarWTFxVygzz?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5JT7CoUSGNk7mMNkHMQjqr",
+      "trackName": "Love Me Do - Mono / Remastered 2015",
+      "artistName": "The Beatles",
+      "albumName": "1 (Remastered)",
+      "albumImage": "https://i.scdn.co/image/4e6916b16ce51c241c16f4d642360443aeb7b4df",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5JT7CoUSGNk7mMNkHMQjqr?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5JT7CoUSGNk7mMNkHMQjqr?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "56rXurvdpjoSIVggfd5ANS",
+      "trackName": "All You Need Is Love - Remastered 2015",
+      "artistName": "The Beatles",
+      "albumName": "1 (Remastered)",
+      "albumImage": "https://i.scdn.co/image/4e6916b16ce51c241c16f4d642360443aeb7b4df",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/56rXurvdpjoSIVggfd5ANS?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/56rXurvdpjoSIVggfd5ANS?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3yf4uaeB2ibXSIPbfUYC2k",
+      "trackName": "Lady Madonna - Remastered 2015",
+      "artistName": "The Beatles",
+      "albumName": "1 (Remastered)",
+      "albumImage": "https://i.scdn.co/image/4e6916b16ce51c241c16f4d642360443aeb7b4df",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3yf4uaeB2ibXSIPbfUYC2k?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3yf4uaeB2ibXSIPbfUYC2k?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2Eti9d7wbABR3WKviUuzV8",
+      "trackName": "Lay All Your Love On Me",
+      "artistName": "ABBA",
+      "albumName": "Abba Gold Anniversary Edition",
+      "albumImage": "https://i.scdn.co/image/f265127f168bf41e2390d2f732b4ba9f2d570cf8",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2Eti9d7wbABR3WKviUuzV8?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2Eti9d7wbABR3WKviUuzV8?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "34h7O0d0ToOB60zYSFkGKH",
+      "trackName": "Love On Top",
+      "artistName": "Beyoncé",
+      "albumName": "4",
+      "albumImage": "https://i.scdn.co/image/63d552eddb0249291c1c7d7947488f8052e1cb96",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/34h7O0d0ToOB60zYSFkGKH?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/34h7O0d0ToOB60zYSFkGKH?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0tmaWVKVoYNa9m4ctwSsmb",
+      "trackName": "Countdown",
+      "artistName": "Beyoncé",
+      "albumName": "4",
+      "albumImage": "https://i.scdn.co/image/63d552eddb0249291c1c7d7947488f8052e1cb96",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0tmaWVKVoYNa9m4ctwSsmb?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0tmaWVKVoYNa9m4ctwSsmb?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4VqPOruhp5EdPBeR92t6lQ",
+      "trackName": "Uprising",
+      "artistName": "Muse",
+      "albumName": "The Resistance",
+      "albumImage": "https://i.scdn.co/image/4ca55ab16f598335b52c9f2103708042d85e2ad2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4VqPOruhp5EdPBeR92t6lQ?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4VqPOruhp5EdPBeR92t6lQ?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "1wcnmLMUdvOQ2Jj9gCg6pT",
+      "trackName": "Starlight",
+      "artistName": "Muse",
+      "albumName": "Black Holes And Revelations (US Only Version)",
+      "albumImage": "https://i.scdn.co/image/6c4c5600ff2e8d3704969b08f299fec464510a69",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1wcnmLMUdvOQ2Jj9gCg6pT?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/1wcnmLMUdvOQ2Jj9gCg6pT?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6f49kbOuQSOsStBpyGvQfA",
+      "trackName": "A Head Full Of Dreams",
+      "artistName": "Coldplay",
+      "albumName": "A Head Full Of Dreams",
+      "albumImage": "https://i.scdn.co/image/9c2c4a9ac9726bfd996ff96383178bbb5efc59ab",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6f49kbOuQSOsStBpyGvQfA?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6f49kbOuQSOsStBpyGvQfA?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3RiPr603aXAoi4GHyXx0uy",
+      "trackName": "Hymn For The Weekend",
+      "artistName": "Coldplay",
+      "albumName": "A Head Full Of Dreams",
+      "albumImage": "https://i.scdn.co/image/9c2c4a9ac9726bfd996ff96383178bbb5efc59ab",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3RiPr603aXAoi4GHyXx0uy?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3RiPr603aXAoi4GHyXx0uy?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5nP0eGFchMYG4JjyIW8IBT",
+      "trackName": "The Animal Song",
+      "artistName": "Savage Garden",
+      "albumName": "Affirmation",
+      "albumImage": "https://i.scdn.co/image/bb892059696b6d280eed65186b70f1a010b9cb0d",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5nP0eGFchMYG4JjyIW8IBT?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5nP0eGFchMYG4JjyIW8IBT?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0IktbUcnAGrvD03AWnz3Q8",
+      "trackName": "Lucky",
+      "artistName": "Jason Mraz",
+      "albumName": "We Sing. We Dance. We Steal Things.",
+      "albumImage": "https://i.scdn.co/image/da78aa2fadacfabdc80addc724f6c01c9752aa02",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0IktbUcnAGrvD03AWnz3Q8?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0IktbUcnAGrvD03AWnz3Q8?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3ZByeMP6T4xQrGvIqkcrCe",
+      "trackName": "Love You I Do",
+      "artistName": "Performed by Jennifer Hudson,",
+      "albumName": "Dreamgirls Music from the Motion Picture - Deluxe Edition",
+      "albumImage": "https://i.scdn.co/image/f9e8e4bb4c6caae9e4ed081ac1d1fbab95a4efb0",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3ZByeMP6T4xQrGvIqkcrCe?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3ZByeMP6T4xQrGvIqkcrCe?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2Y2ud3awMZHDxOCpDebiv3",
+      "trackName": "Umbrella",
+      "artistName": "Rihanna",
+      "albumName": "Good Girl Gone Bad: Reloaded",
+      "albumImage": "https://i.scdn.co/image/f66e53d04695e15f35793ef87ee5ba8dc81b0aab",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2Y2ud3awMZHDxOCpDebiv3?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2Y2ud3awMZHDxOCpDebiv3?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "7qA8S7mbV9uPy9rFprdN3C",
+      "trackName": "Goliat",
+      "artistName": "Laleh",
+      "albumName": "Colors",
+      "albumImage": "https://i.scdn.co/image/fa64df5c16c6cbce04152ea9ed02caf577326dd2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7qA8S7mbV9uPy9rFprdN3C?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7qA8S7mbV9uPy9rFprdN3C?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6qC8Jj1XOxknPm8N7EbzKX",
+      "trackName": "Flashlight - From \"Pitch Perfect 2\" Soundtrack",
+      "artistName": "Jessie J",
+      "albumName": "Flashlight (From \"Pitch Perfect 2\" Soundtrack)",
+      "albumImage": "https://i.scdn.co/image/7c64826355dea1a3de0c0471dc7c601d8ec13b36",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6qC8Jj1XOxknPm8N7EbzKX?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6qC8Jj1XOxknPm8N7EbzKX?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0VcqYTCP4gOL9TaXvluIaa",
+      "trackName": "Isabel",
+      "artistName": "Daniel Adams-Ray",
+      "albumName": "Isabel",
+      "albumImage": "https://i.scdn.co/image/1686ec521b81e3949edee0d83756d6326d1edea2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0VcqYTCP4gOL9TaXvluIaa?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0VcqYTCP4gOL9TaXvluIaa?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "7J03JUTDMAoMrMET9yqClr",
+      "trackName": "The Fiddlers",
+      "artistName": "Tingsek",
+      "albumName": "The Fiddlers",
+      "albumImage": "https://i.scdn.co/image/d7a642b74deb6d23584cbdf4f8c00c40603efa44",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7J03JUTDMAoMrMET9yqClr?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/7J03JUTDMAoMrMET9yqClr?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0vyRl9GLwpuI5GIyB9CUX9",
+      "trackName": "Thinking Of Sunshine",
+      "artistName": "Daniel Adams-Ray",
+      "albumName": "Thinking Of Sunshine",
+      "albumImage": "https://i.scdn.co/image/db0ec069aa52943dbe340e91f9cbd358e10f841e",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0vyRl9GLwpuI5GIyB9CUX9?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0vyRl9GLwpuI5GIyB9CUX9?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0EC2lYMM97Vghq73ZmyvZ4",
+      "trackName": "Inga problem - Remix",
+      "artistName": "Snook",
+      "albumName": "Inga problem (Remix)",
+      "albumImage": "https://i.scdn.co/image/9cb4f1aeca0d605ffb4f476d9d3dc7fd6d086ec2",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0EC2lYMM97Vghq73ZmyvZ4?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0EC2lYMM97Vghq73ZmyvZ4?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "20BubhRYSjCIchDA4O9wNK",
+      "trackName": "Best Thing I Never Had",
+      "artistName": "Beyoncé",
+      "albumName": "4",
+      "albumImage": "https://i.scdn.co/image/63d552eddb0249291c1c7d7947488f8052e1cb96",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/20BubhRYSjCIchDA4O9wNK?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/20BubhRYSjCIchDA4O9wNK?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2CyE2IRLBN1lWdrELMqgwx",
+      "trackName": "Someone New",
+      "artistName": "Hozier",
+      "albumName": "Hozier (Deluxe)",
+      "albumImage": "https://i.scdn.co/image/0080bec0581fe6edb83293c14d3a0d01942b1798",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2CyE2IRLBN1lWdrELMqgwx?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2CyE2IRLBN1lWdrELMqgwx?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4YUlGNZfYA6EUE5KDsGqpC",
+      "trackName": "You Can't Hurry Love",
+      "artistName": "Phil Collins",
+      "albumName": "Hello, I Must Be Going",
+      "albumImage": "https://i.scdn.co/image/c8a24b5acc2bb1ca5c81c96e411abedc2b5a9832",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4YUlGNZfYA6EUE5KDsGqpC?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4YUlGNZfYA6EUE5KDsGqpC?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4TBBPZks71c60whhq0PgdP",
+      "trackName": "(Your Love Keeps Lifting Me) Higher & Higher",
+      "artistName": "Jackie Wilson",
+      "albumName": "The Ultimate Jackie Wilson",
+      "albumImage": "https://i.scdn.co/image/7452533c56b1407b8ec9c25a85c22c2ad566044e",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4TBBPZks71c60whhq0PgdP?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4TBBPZks71c60whhq0PgdP?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2DVUJ7LTIOEQqjfOZXs8iU",
+      "trackName": "Believe",
+      "artistName": "Mumford & Sons",
+      "albumName": "Wilder Mind (Deluxe)",
+      "albumImage": "https://i.scdn.co/image/d02e32c7f15235fc30edfaf7abe5124a16d6baab",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2DVUJ7LTIOEQqjfOZXs8iU?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2DVUJ7LTIOEQqjfOZXs8iU?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "44T13PWJ87jb3lFElhVIHx",
+      "trackName": "Growing Up (feat. Ed Sheeran)",
+      "artistName": "Macklemore & Ryan Lewis",
+      "albumName": "This Unruly Mess I've Made",
+      "albumImage": "https://i.scdn.co/image/7f2fc9c49e8016a239fd7c3b098bd356980f8e8b",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/44T13PWJ87jb3lFElhVIHx?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/44T13PWJ87jb3lFElhVIHx?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "05SRJ4mfEVZWdsLwBRD60G",
+      "trackName": "Dragon",
+      "artistName": "Miriam Bryant",
+      "albumName": "Dragon",
+      "albumImage": "https://i.scdn.co/image/5ca775bd8299fae6fc0885a81751eaee1d0af544",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/05SRJ4mfEVZWdsLwBRD60G?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/05SRJ4mfEVZWdsLwBRD60G?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4kbj5MwxO1bq9wjT5g9HaA",
+      "trackName": "Shut Up and Dance",
+      "artistName": "WALK THE MOON",
+      "albumName": "TALKING IS HARD",
+      "albumImage": "https://i.scdn.co/image/1c87b0ac6f0cd837dc399d52bab96134442547ea",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4kbj5MwxO1bq9wjT5g9HaA?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4kbj5MwxO1bq9wjT5g9HaA?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5WsjSKEBcZGVjpn3liGgzu",
+      "trackName": "Number One",
+      "artistName": "Tove Styrke",
+      "albumName": "Kiddo",
+      "albumImage": "https://i.scdn.co/image/72e199336705b8220416d66271eb2fd406a6fc0e",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5WsjSKEBcZGVjpn3liGgzu?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5WsjSKEBcZGVjpn3liGgzu?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6NPVjNh8Jhru9xOmyQigds",
+      "trackName": "Happy",
+      "artistName": "Pharrell Williams",
+      "albumName": "Despicable Me 2 (Original Motion Picture Soundtrack)",
+      "albumImage": "https://i.scdn.co/image/d8a6239b6b6065b4d04d4f3fc97cbfc752cfd9e7",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6NPVjNh8Jhru9xOmyQigds?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6NPVjNh8Jhru9xOmyQigds?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0zhNoNKhia3RRFzrmHlml6",
+      "trackName": "Younger",
+      "artistName": "Seinabo Sey",
+      "albumName": "Pretend",
+      "albumImage": "https://i.scdn.co/image/6a1ead23be5e81463d2ddb086678d87666d3f9b6",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0zhNoNKhia3RRFzrmHlml6?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0zhNoNKhia3RRFzrmHlml6?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "58facAQuyUDml53CS4fOd3",
+      "trackName": "Slå mig hårt i ansiktet",
+      "artistName": "Thomas Stenström",
+      "albumName": "Fulkultur",
+      "albumImage": "https://i.scdn.co/image/f7138bfce360dbcd03f91290974d090b3ab05472",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/58facAQuyUDml53CS4fOd3?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/58facAQuyUDml53CS4fOd3?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "5a7NdkF09AfD0H607eiOkX",
+      "trackName": "On My Mind",
+      "artistName": "Ellie Goulding",
+      "albumName": "Delirium (Deluxe)",
+      "albumImage": "https://i.scdn.co/image/a6cb90e7db705c9fc2d60f5a0125f2e17e0362d7",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5a7NdkF09AfD0H607eiOkX?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/5a7NdkF09AfD0H607eiOkX?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3POvBeMRTKRo2GYJInADSA",
+      "trackName": "Not Too Young",
+      "artistName": "Sabina Ddumba",
+      "albumName": "Not Too Young",
+      "albumImage": "https://i.scdn.co/image/b7619e1b0663dfe5f27dd35eb2bd778dd57d31cc",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3POvBeMRTKRo2GYJInADSA?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3POvBeMRTKRo2GYJInADSA?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6NPVjNh8Jhru9xOmyQigds",
+      "trackName": "Happy",
+      "artistName": "Pharrell Williams",
+      "albumName": "Despicable Me 2 (Original Motion Picture Soundtrack)",
+      "albumImage": "https://i.scdn.co/image/d8a6239b6b6065b4d04d4f3fc97cbfc752cfd9e7",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6NPVjNh8Jhru9xOmyQigds?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6NPVjNh8Jhru9xOmyQigds?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "0QQG0RovnsfKUdHJIsJ39f",
+      "trackName": "Bang My Head (feat. Sia & Fetty Wap)",
+      "artistName": "David Guetta",
+      "albumName": "Bang My Head (feat. Sia & Fetty Wap)",
+      "albumImage": "https://i.scdn.co/image/e998b8d30d929e5b61afe0647cef5105a13e8044",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0QQG0RovnsfKUdHJIsJ39f?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/0QQG0RovnsfKUdHJIsJ39f?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "4yMoRDq0mtu2QfTiAsOaP5",
+      "trackName": "Unwritten",
+      "artistName": "Natasha Bedingfield",
+      "albumName": "Unwritten",
+      "albumImage": "https://i.scdn.co/image/dd35098e1dddd0302abfa39eaa59af224a82ac00",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4yMoRDq0mtu2QfTiAsOaP5?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/4yMoRDq0mtu2QfTiAsOaP5?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "6FlAGda9qkDhTU7ctFM4uG",
+      "trackName": "Crazy - single version",
+      "artistName": "Gnarls Barkley",
+      "albumName": "Crazy",
+      "albumImage": "https://i.scdn.co/image/5c0b903d1d5bb2e2923c2b3924d8122b23bee30c",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6FlAGda9qkDhTU7ctFM4uG?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/6FlAGda9qkDhTU7ctFM4uG?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "2QHX3x8XJTMxv6FMqQHkdY",
+      "trackName": "We Are (Ziggy & Carola)",
+      "artistName": "Peg Parnevik",
+      "albumName": "We Are (Ziggy & Carola)",
+      "albumImage": "https://i.scdn.co/image/d55065fc7cbf62a838b5acb29c5ca27e571a39b5",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2QHX3x8XJTMxv6FMqQHkdY?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/2QHX3x8XJTMxv6FMqQHkdY?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
+      "trackID": "3KZcrZ36LW9RnChK1iIkth",
+      "trackName": "Send My Love (To Your New Lover)",
+      "artistName": "Adele",
+      "albumName": "25",
+      "albumImage": "https://i.scdn.co/image/c018e59487df998eb8587d312b0b3233fdeff0fc",
+      "voteUp": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3KZcrZ36LW9RnChK1iIkth?vote=up&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+      "voteDown": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/3KZcrZ36LW9RnChK1iIkth?vote=down&access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
     }
   ]
 }
