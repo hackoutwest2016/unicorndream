@@ -29,7 +29,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         box-shadow: 0 2px 2px 0 #3F3F3F, 0 1px 5px 0 #3F3F3F, 0 3px 1px -2px #3F3F3F;
         padding: 16px;
         margin: 24px;
-        border-radius: 5px;
+        border-radius: 2px;
         background-color: #3F3F3F;
         color: #757575;
       }
@@ -95,23 +95,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         font-weight: lighter;
       }
 
-      paper-button{
+      nested-button{
         text-align: right;
         color: #F7F7F7;
         background-color: #07A94A;
         margin-top: 7px;
       }
 
-      a {
-        text-decoration: none;
-      }
 
       paper-material list-container{
         display: flex;
         justify-content: space-between;
       }
 
-      large-header{
+      text-header{
         display: block;
         text-align: center;
         font-size: 26px;
@@ -122,7 +119,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       }
 
-      by-user{
+      text-user{
         display: block;
         text-align: center;
         font-size: 12px;
@@ -142,23 +139,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         display: inline-block;
       }
       .playlistAdd {
-        text-align: right !important;
+        text-align: right;
       }
       .playlistName {
-        text-align: left !important;
+        text-align: left;
       }
     }
     </style>
 
     <div class="background">
 
-      <large-header>
+      <text-header>
         unicorndream </br> partylistan
-      </large-header>
+      </text-header>
 
-      <by-user>
+      <text-user>
         BY UNICORN DREAM
-      </by-user>
+      </text-user>
 
 
       <template is="dom-bind">
@@ -184,7 +181,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                       </a> -->
 
 
-                    
+
                     </div>
                   </list-container>
                 </div>

@@ -14,12 +14,18 @@
       }
       paper-material {
         display: flex;
-        background: white;
+        background: #1C1C1F;
         box-sizing: border-box;
         margin: 8px;
         padding: 16px;
-        border-radius: 2px;
+        border-radius: 0px;
         width: 100%;
+        font-family: 'lato', 'Noto', sans-serif;
+        font-size: 12px;
+      }
+
+      span {
+        margin: 5px;
       }
       .container {
         @apply(--layout-horizontal);
@@ -27,6 +33,7 @@
         @apply(--layout-justified);
       }
       .songArtist {
+        text-align: left;
         @apply(--layout-horizontal);
         @apply(--layout-center);
       }
@@ -36,15 +43,14 @@
         @apply(--layout-center);
       }
     </style>
-    
+
     <!-- local DOM goes here -->
     <paper-material class="container">
       <div class="songArtist">
-        <iron-image src={{albumImage}} style="width:100px; height:100px;" sizing="contain"></iron-image>
         <span>{{songName}}</span>
         <span>{{artistName}}</span>
-        <span>{{albumName}}</span>
-        <span>{{localVotes}}</span>
+
+
       </div>
       <div>
         <paper-button id='upButton' raised>Up</paper-button>
@@ -95,4 +101,3 @@
   </script>
 
 </dom-module>
-

@@ -1,5 +1,5 @@
 {
-  "url": "http://localhost:8081/userId/playlist?access_token=access_token",
-  "access_token": "access_token",
-  "user": "userId"
+  "body": "blze",
+  "access_token": "BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc",
+  "url": "http://localhost:8081/blze/playlist?access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
 }

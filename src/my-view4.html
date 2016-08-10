@@ -64,9 +64,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-input label="password"></paper-input>
         </div>
         <div>
-          <paper-button>
-            LOG IN
-            </paper-button>
+          <paper-button id="login-Button" label="Click" link="http://localhost:8081/login"
+        on-click="{loginLink}">LOG IN
+      </paper-button>
         </div>
       </paper-card>
     </div>
@@ -81,7 +81,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     Polymer({
 
-      is: 'my-view4'
+      is: 'my-view4',
+      listeners: {
+        "login-Button.tap": "loginLink"
+      },
+      loginLink: function(e) {
+        console.log("Helllooo");
+        window.location.href = e.target.getAttribute('link');
+      }
 
     });
 
