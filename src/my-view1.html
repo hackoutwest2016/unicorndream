@@ -49,7 +49,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       .background {
           width: 100%;
-          height: 1000px;
+          height: 10000px;
           background-image: url('../images/wowcolors3.jpg');
           text-align: center;
         }
@@ -103,6 +103,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <div class="card">
       <template is="dom-bind">
+        <iron-ajax url={{nextUrlRequest}} last-response="{{tracksData}}" auto></iron-ajax>
+        <iron-list items="[[tracksData.tracks]]" as="item">
+          <template>
+            <div>
+              <track-item 
+                song-name=[[item.trackName]]
+                artist-name=[[item.artistName]]
+                album-name=[[item.albumName]]
+                album-image=[[item.albumImage]]>
+              </track-item>
+            </div>
+          </template>
+        </iron-list>
+      </template>
+
+      <template is="dom-bind">
         <iron-ajax url="../data/tracks.json" last-response="{{tracksData}}" auto></iron-ajax>
         <iron-list items="[[tracksData.tracks]]" as="item">
           <template>
@@ -152,6 +168,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </iron-data-table>
       </template> -->
     </div>
+    <paper-button id="testButton">Test</paper-button>
   </template>
   <script>
 
@@ -166,26 +183,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           notify: true
         },
         nextRequest: {
-          type: String
+          type: String,
+          notify: true,
+          reflectToAttribute: true
         }
+      },
+
+      listeners: {
+        'testButton.tap': 'printNextReq'
       },
 
       ready: function() {
         console.log("View 1 is ready");
-        console.log(this.testnumber);
-        this.index2id(this.testnumber);
-        console.log("this.nextRequest");
-        console.log(this.nextRequest);
       },
 
-      index2id: function(index) {
-        console.log("index = " + index);
-        // return "_" + index;
+      printNextReq: function(index) {
+        console.log("Print Next request");
+        console.log(this.nextRequest);
       }
-
-      // onDownVote: function() {
-      //   console.log("DownVote pressed");
-      // }
 
     });
 
