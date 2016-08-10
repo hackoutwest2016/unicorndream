@@ -1,25 +1,32 @@
 {
   "playlists": [
     {
-      "url": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/tracks?access_token=accesstoken",
+      "playlistID": "7nLf3xNGvhPwkbuOUmHfaq",
+      "userID": "hannamaterne",
+      "playlistName": "Hack Out West 2016",
+      "playlistImage": "https://u.scdn.co/images/pl/default/84a19d71d399bfbf74fd048a61c24cbd8109d53e",
+      "url": "http://localhost:8081/blze/7nLf3xNGvhPwkbuOUmHfaq/tracks?access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
+    },
+    {
       "playlistID": "5DEfB6faDy0LMFnqaqVUMH",
       "userID": "blze",
       "playlistName": "test-playlist",
-      "playlistImage": "https://i.scdn.co/image/4652c5dcfeeb8962bfec52f8563726c0eee66a62"
+      "playlistImage": "https://i.scdn.co/image/4652c5dcfeeb8962bfec52f8563726c0eee66a62",
+      "url": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/tracks?access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
     },
     {
-      "url": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/tracks?access_token=accesstoken",
       "playlistID": "6klMW9XTrrMqlMa6aTxNbo",
       "userID": "blze",
       "playlistName": "Graduation day",
-      "playlistImage": "https://mosaic.scdn.co/640/deab63fe4409c17f09d5e5cb8360cbd5a395d1a4c7eb46e6ea0c4fa929c95a6f4b0c991d818fc5a250cc1e02eb1a4af701f5276a226242ff83811a67472b8ac6b6637f31e25f51714ef464ee1069cf6f"
+      "playlistImage": "https://mosaic.scdn.co/640/deab63fe4409c17f09d5e5cb8360cbd5a395d1a4c7eb46e6ea0c4fa929c95a6f4b0c991d818fc5a250cc1e02eb1a4af701f5276a226242ff83811a67472b8ac6b6637f31e25f51714ef464ee1069cf6f",
+      "url": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/tracks?access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
     },
     {
-      "url": "http://localhost:8081/blze/1cfnvJDmuJ1NweHjaK9qMr/tracks?access_token=accesstoken",
       "playlistID": "1cfnvJDmuJ1NweHjaK9qMr",
       "userID": "blze",
       "playlistName": "50årsfest",
-      "playlistImage": "https://mosaic.scdn.co/640/73f4e10d32e651122e320def96708e189be0f9658fcfd07b27039a9a7e4356a028430b167303684948c7952ccda706097e688db08164cd8e43e6e72ff6c7ac010fbb89206835a5bf91d74fc62acd5360"
+      "playlistImage": "https://mosaic.scdn.co/640/73f4e10d32e651122e320def96708e189be0f9658fcfd07b27039a9a7e4356a028430b167303684948c7952ccda706097e688db08164cd8e43e6e72ff6c7ac010fbb89206835a5bf91d74fc62acd5360",
+      "url": "http://localhost:8081/blze/1cfnvJDmuJ1NweHjaK9qMr/tracks?access_token=BQDW0YbFKlMApfwZcsM1ORZ3FbV5UXpTwOvVSY2reYQI8adxq-BS_BAF1zT8uxL_C40NZTBwVKmY_kIYbGX76myrIlsJsaW7w2AcHXDQ3oeaaKv0DKhhz5KdubzqQYWdR6RVWPTZ8LtsyWgwu9CA_J1fO48TRPiTN-ioLgiFr5Ah2ag1PSA-ZQfVKuBXZRK6Qxz23elFYQ4rfEXMz0F0zwO861mn0jeX777VdYW7F2MLQ1oVCnTEJNfsB9XcfnV1Ijc"
     }
   ]
 }
