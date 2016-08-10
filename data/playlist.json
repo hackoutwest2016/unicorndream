@@ -1,18 +1,21 @@
 {
   "playlists": [
     {
+      "url": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/tracks?access_token=accesstoken",
       "playlistID": "5DEfB6faDy0LMFnqaqVUMH",
       "userID": "blze",
       "playlistName": "test-playlist",
       "playlistImage": "https://i.scdn.co/image/4652c5dcfeeb8962bfec52f8563726c0eee66a62"
     },
     {
+      "url": "http://localhost:8081/blze/6klMW9XTrrMqlMa6aTxNbo/tracks?access_token=accesstoken",
       "playlistID": "6klMW9XTrrMqlMa6aTxNbo",
       "userID": "blze",
       "playlistName": "Graduation day",
       "playlistImage": "https://mosaic.scdn.co/640/deab63fe4409c17f09d5e5cb8360cbd5a395d1a4c7eb46e6ea0c4fa929c95a6f4b0c991d818fc5a250cc1e02eb1a4af701f5276a226242ff83811a67472b8ac6b6637f31e25f51714ef464ee1069cf6f"
     },
     {
+      "url": "http://localhost:8081/blze/1cfnvJDmuJ1NweHjaK9qMr/tracks?access_token=accesstoken",
       "playlistID": "1cfnvJDmuJ1NweHjaK9qMr",
       "userID": "blze",
       "playlistName": "50årsfest",
