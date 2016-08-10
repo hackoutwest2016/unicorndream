@@ -94,10 +94,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </app-header>
 
         <iron-pages role="main" selected="[[page]]" attr-for-selected="name">
-          <my-view1 name="view1" next-request={{nextRequestUrl}}></my-view1>
-          <my-view2 name="view2" next-request={{nextRequestUrl}}></my-view2>
+          <my-view1 name="view1" next-request="{{nextRequestUrl}}"></my-view1>
+          <my-view2 name="view2" next-request="{{nextRequestUrl}}"></my-view2>
           <my-view3 name="view3"></my-view3>
-          <my-view4 name="view4" next-request={{nextRequestUrl}}></my-view4>
+          <my-view4 name="view4" next-request="{{nextRequestUrl}}"></my-view4>
         </iron-pages>
 
       </app-header-layout>
@@ -112,6 +112,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       is: 'my-app',
 
+      ready: function() {
+      },
+
       properties: {
 
         page: {
@@ -120,10 +123,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           observer: '_pageChanged'
         },
         nextRequestUrl: {
-          type: String,
-          notify: true
+          type: String
         }
-
       },
 
       observers: [

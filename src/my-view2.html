@@ -177,7 +177,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     </div>
                     <div class="playlistAdd playlistItem">
 
-                      <nested-button playlist-url=[[item.url]] next-request={{nextRequestUrl}}></nested-button>
+                      <nested-button playlist-url="[[item.url]]" next-request="[[nextRequestUrl]]"></nested-button>
 
                       <!-- <a href="/view1">
                         <paper-button on-tap="{{doSomething}}">Choose</paper-button>
@@ -203,7 +203,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       is: 'my-view2',
       nextRequest: {
-        type: String
+        type: String,
+        notify: true,
+        reflectToAttribute: true
       }
 
     });
