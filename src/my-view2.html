@@ -13,6 +13,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/paper-material/paper-material.html">
 <link rel="import" href="track-item/track-item.html">
+<link rel="import" href="nested-button/nested-button.html">
 <link rel="import" href="view-button.html">
 
 
@@ -175,9 +176,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                       <h2>[[item.playlistName]]</h2>
                     </div>
                     <div class="playlistAdd playlistItem">
-                      <a href="/view1">
-                        <paper-button id="chooseButton">Choose</paper-button>
-                      </a>
+
+                      <nested-button playlist-url=[[item.url]] next-request={{nextRequestUrl}}></nested-button>
+
+                      <!-- <a href="/view1">
+                        <paper-button on-tap="{{doSomething}}">Choose</paper-button>
+                      </a> -->
+
+
+                    
                     </div>
                   </list-container>
                 </div>
@@ -194,7 +201,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     Polymer({
 
-      is: 'my-view2'
+      is: 'my-view2',
+      nextRequest: {
+        type: String
+      }
 
     });
 

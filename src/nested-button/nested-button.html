@@ -1,0 +1,48 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+
+<dom-module id="nested-button">
+
+  <template>
+
+    <style>
+      :host {
+        display: flex;
+      }    
+    </style>
+
+    <a href="/view1">
+      <paper-button id="chooseButton">Choose</paper-button>
+    </a>
+    
+  </template>
+
+  <script>
+  Polymer({
+    is: 'nested-button',
+    properties: {
+      playlistUrl: {
+        type: String
+      },
+      nextRequest: {
+        type: String
+      }
+    },
+    listeners: {
+      'chooseButton.tap': 'playlistChosen'
+    },
+    playlistChosen: function() {
+      console.log("Playlist chosen");
+      console.log(this.playlistUrl);
+      console.log("this.nextRequest1");
+      console.log(this.nextRequest);
+      this.nextRequest = this.playlistUrl;
+      console.log("this.nextRequest2");
+      console.log(this.nextRequest);
+
+    }
+  });
+  </script>
+
+</dom-module>
+
