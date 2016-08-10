@@ -160,7 +160,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       <template is="dom-bind">
         <paper-material id="playlistHeader" elevation="1">
-          <h1>Choose a playlist!</h1>
+          <h1>Your playlists</h1>
           </paper-material>
         <iron-ajax url="../data/playlist.json" last-response="{{data}}" auto></iron-ajax>
         <iron-list items="[[data.playlists]]" as="item">
