@@ -14,6 +14,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../bower_components/paper-material/paper-material.html">
 <link rel="import" href="track-item/track-item.html">
+<link rel="import" href="view-button.html">
 
 
 <dom-module id="my-view2">
@@ -46,14 +47,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         font-weight: 400;
       }
 
-
-
       .background {
         width: 100%;
         height: 1000px;
         background-image: url('../images/wowcolors3.jpg');
         text-align: center;
       }
+
       hr {
         display: block;
         margin-top: 0px;
@@ -152,7 +152,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                       <h2>[[item.playlistName]]</h2>
                     </div>
                     <div class="playlistAdd playlistItem">
-                      <paper-button >Choose</paper-button>
+                      <view-button></view-button>
                   </list-container>
                   </div>
                 </div>
@@ -172,7 +172,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       is: 'my-view2'
 
     });
-
 
   </script>
 

@@ -1,0 +1,23 @@
+<dom-module id="view-button">
+  <style>
+  </style>
+
+  <template>
+    <paper-button raisedButton id="playlistButton">Click</paper-button>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'view-button',
+
+      listeners: {
+        "playlistButton.tap": "goView"
+      },
+
+      goView: function() {
+        console.log("click");
+      }
+    });
+  </script>
+
+</dom-module>
