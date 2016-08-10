@@ -46,12 +46,54 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         color: #555;
         text-align: center;
       }
+
+      .background {
+          width: 100%;
+          height: 1000px;
+          background-image: url('../images/wowcolors3.jpg');
+          text-align: center;
+        }
+        
+      }
       h1 {
         font-size: 22px;
         margin: 16px 0;
         color: #212121;
       }
+
+      text-header{
+        display: block;
+        text-align: center;
+        font-size: 26px;
+        color: #F7F7F7;
+        font-family: 'Montserrat', 'Lato', sans-serif;
+        padding-top: 30px;
+        line-height: 40px;
+
+      }
+
+      text-user{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color: #F7F7F7;
+        font-family: 'Lato', 'Lato', sans-serif;
+        font-weight: lighter;
+        padding-top: 30px;
+        letter-spacing: 2px;
+      }
+
     </style>
+
+    <div class="background">
+
+      <text-header>
+        unicorndream </br> partylistan
+      </text-header>
+
+      <text-user>
+        BY UNICORN DREAM
+      </text-user>
 
     <div class="card">
       <div class="circle">1</div>
@@ -61,7 +103,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <iron-list items="[[tracksData.tracks]]" as="item">
           <template>
             <div>
-              <track-item 
+              <track-item
                 song-name=[[item.trackName]]
                 artist-name=[[item.artistName]]
                 album-name=[[item.albumName]]
