@@ -25,23 +25,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         display: block;
       }
       .card {
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 #3F3F3F, 0 1px 5px 0 #3F3F3F, 0 3px 1px -2px #3F3F3F;
         padding: 16px;
         margin: 24px;
         border-radius: 5px;
-        background-color: #fff;
+        background-color: #3F3F3F;
         color: #757575;
       }
       paper-material {
         display: inline-block;
-        background: black;
-        color: white;
+        background: #1C1C1F;
+        color: #F7F7F7;
         box-sizing: border-box;
         margin: 0px;
         padding: 16px;
         border-radius: 2px;
         width: 70%;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
       }
+
+
+
       .background {
         width: 100%;
         height: 1000px;
@@ -57,7 +63,30 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         border-style: inset;
         border-width: 1px;
         width: 70%;
+        color: #3F3F3F;
       }
+
+      h1{
+        color: #F7F7F7;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      h2{
+        color: #F7F7F7;
+        font-size: 14px;
+        font-weight: lighter;
+      }
+
+      paper-button{
+        text-align: right;
+      }
+
+      paper-material list-container{
+        display: flex;
+        justify-content: space-between;
+      }
+
       #playlistHeader {
         margin-top: 30%;
         height: 10%;
@@ -86,11 +115,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <div>
               <hr>
               <paper-material elevation="1">
-                <div class="playlistName playlistItem">
-                  <h2>[[item.playlistName]]</h2>
-                </div>
-                <div class="playlistAdd playlistItem">
-                  <paper-button >Choose</paper-button>
+                  <list-container>
+                    <div class="playlistName playlistItem">
+                      <h2>[[item.playlistName]]</h2>
+                    </div>
+                    <div class="playlistAdd playlistItem">
+                      <paper-button >Choose</paper-button>
+                  </list-container>
+                  </div>
                 </div>
               </paper-material>
             </div>
