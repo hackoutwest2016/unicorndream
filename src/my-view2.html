@@ -11,7 +11,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
-<link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../bower_components/paper-material/paper-material.html">
 <link rel="import" href="track-item/track-item.html">
 <link rel="import" href="view-button.html">
@@ -168,9 +167,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                       <h2>[[item.playlistName]]</h2>
                     </div>
                     <div class="playlistAdd playlistItem">
-                      <view-button></view-button>
+                      <a href="/view1">
+                        <paper-button id="chooseButton">Choose</paper-button>
+                      </a>
+                    </div>
                   </list-container>
-                  </div>
                 </div>
               </paper-material>
             </div>
