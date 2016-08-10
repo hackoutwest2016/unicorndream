@@ -104,7 +104,6 @@ app.get('/:user/:playlist/:track', function (req, res) {
           voteMap.set(trackKey, trackValue);
         }
     }
-<<<<<<< HEAD
       if(req.query.vote != null){
         var options = {
           url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
@@ -163,33 +162,6 @@ app.get('/:user/:playlist/:track', function (req, res) {
         setTimeout(function(){
           res.redirect('/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token );
         }, 5000);
-=======
-      console.log(voteMap);
-      var options = {
-       url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
-       headers: { 'Authorization': 'Bearer ' + req.query.access_token },
-       json: true
-     };
-     console.log(options.url);
-     request.get(options, function(error, response, body){
-       var songPosition;
-       var songTotalVotes;
-       console.log(body);
-       console.log(response);
-       console.log(error);
-
-       //for(var i = 0; i<body.tracks.length; i++){
-        //if(body.tracks[i].trackName == trackKey){
-        //  songPosition = i;
-        //  break;
-      //  }
-    //  }
-
-       songTotalVotes = voteMap.get(trackKey);
-       //for(var j = 0; j<body.items.length; j++){
-      //   if(voteMap.get(body.items[i].id != ))
-      // }
->>>>>>> 4d2059160bfe74d36ee1213bbc7760b617e1c66c
     });
   } //if-sats
 
