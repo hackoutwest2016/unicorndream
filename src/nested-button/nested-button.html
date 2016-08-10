@@ -23,6 +23,9 @@
     properties: {
       playlistUrl: {
         type: String
+      },
+      nextRequest: {
+        type: String
       }
     },
     listeners: {
@@ -31,6 +34,11 @@
     playlistChosen: function() {
       console.log("Playlist chosen");
       console.log(this.playlistUrl);
+      console.log("this.nextRequest1");
+      console.log(this.nextRequest);
+      this.nextRequest = this.playlistUrl;
+      console.log("this.nextRequest2");
+      console.log(this.nextRequest);
 
     }
   });

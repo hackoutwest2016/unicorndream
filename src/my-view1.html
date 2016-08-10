@@ -118,6 +118,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           type: String,
           value: "hej",
           notify: true
+        },
+        nextRequest: {
+          type: String
         }
       },
 
@@ -125,6 +128,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         console.log("View 1 is ready");
         console.log(this.testnumber);
         this.index2id(this.testnumber);
+        console.log("this.nextRequest");
+        console.log(this.nextRequest);
       },
 
       index2id: function(index) {
