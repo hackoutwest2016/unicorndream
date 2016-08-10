@@ -7,9 +7,15 @@ var express = require('express');
 var cookieParser = require('cookie-parser');
 var querystring = require('querystring');
 var stateKey = 'spotify_auth_state';
+var localhost = 'http://localhost:8081/';
 var app = express();
 app.use(express.static(__dirname + '/public'))
    .use(cookieParser());
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 
 app.get('/:user/playlist', function (req, res) {
   var options = {
@@ -21,9 +27,15 @@ app.get('/:user/playlist', function (req, res) {
     console.log(body);
     var playlists = [];
     var counter = 0;
+    var url = localhost + req.params.user + '/';
+    var postfix = '/tracks?access_token=' + req.query.access_token;
     for (var i = 0; i < body.items.length; i++){
       if (body.items[i].collaborative){
-        var playlist = {playlistID: body.items[i].id, userID: body.items[i].owner.id, playlistName: body.items[i].name, playlistImage: body.items[i].images[0].url};
+        var playlist = { playlistID: body.items[i].id, 
+          userID: body.items[i].owner.id, 
+          playlistName: body.items[i].name, 
+          playlistImage: body.items[i].images[0].url,
+          'url': url + body.items[i].id + postfix };
         playlists[counter]=playlist;
         counter++;
       }
@@ -48,8 +60,18 @@ app.get('/:user/:playlist/tracks', function (req, res) {
     request.get(options, function(error, response, body){
       // console.log(JSON.stringify(body));
       var tracks = [];
+      var url = localhost + req.params.user + '/' + req.params.playlist + '/';
+      var voteDown = '?vote=down'
+      var voteUp = '?vote=up'
+      var postfix = '&access_token=' + req.query.access_token;
       for(var i = 0; i<body.items.length; i++){
-        var track = {trackID: body.items[i].track.id, trackName: body.items[i].track.name, artistName: body.items[i].track.artists[0].name, albumName: body.items[i].track.album.name, albumImage: body.items[i].track.album.images[0].url};
+        var track = { trackID: body.items[i].track.id,
+          trackName: body.items[i].track.name,
+          artistName: body.items[i].track.artists[0].name,
+          albumName: body.items[i].track.album.name,
+          albumImage: body.items[i].track.album.images[0].url,
+          'voteUp': url + body.items[i].track.id + voteUp + postfix,
+          'voteDown': url + body.items[i].track.id + voteDown + postfix };
         tracks[i]=track;
       };
       res.end(JSON.stringify({ 'tracks':  tracks}));
@@ -82,6 +104,7 @@ app.get('/:user/:playlist/:track', function (req, res) {
           voteMap.set(trackKey, trackValue);
         }
     }
+<<<<<<< HEAD
       if(req.query.vote != null){
         var options = {
           url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
@@ -140,6 +163,33 @@ app.get('/:user/:playlist/:track', function (req, res) {
         setTimeout(function(){
           res.redirect('/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token );
         }, 5000);
+=======
+      console.log(voteMap);
+      var options = {
+       url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
+       headers: { 'Authorization': 'Bearer ' + req.query.access_token },
+       json: true
+     };
+     console.log(options.url);
+     request.get(options, function(error, response, body){
+       var songPosition;
+       var songTotalVotes;
+       console.log(body);
+       console.log(response);
+       console.log(error);
+
+       //for(var i = 0; i<body.tracks.length; i++){
+        //if(body.tracks[i].trackName == trackKey){
+        //  songPosition = i;
+        //  break;
+      //  }
+    //  }
+
+       songTotalVotes = voteMap.get(trackKey);
+       //for(var j = 0; j<body.items.length; j++){
+      //   if(voteMap.get(body.items[i].id != ))
+      // }
+>>>>>>> 4d2059160bfe74d36ee1213bbc7760b617e1c66c
     });
   } //if-sats
 
@@ -164,11 +214,9 @@ app.get('/user', function(req, res) {
     json: true
   };
   request.get(options, function(error, response, body) {
-    res.redirect('/' + body.id + '/playlist?' +
-    querystring.stringify({
-      access_token: req.query.access_token,
-      refresh_token: req.query.refresh_token
-    }));
+    res.end(JSON.stringify({'body': body.id,
+      'access_token': req.query.access_token,
+      'url': localhost + body.id + '/playlist?access_token=' + req.query.access_token}));
   });
 })
 

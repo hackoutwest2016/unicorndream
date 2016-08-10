@@ -1,6 +1,8 @@
 {
   "tracks": [
     {
+      "voteUp": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/6SwgsjeuNAnU9F4WUTlR6p?vote=up&access_token=access_token",
+      "voteDown": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/6SwgsjeuNAnU9F4WUTlR6p?vote=down&access_token=access_token",
       "trackID": "6SwgsjeuNAnU9F4WUTlR6p",
       "trackName": "Where You Hide - Radio Edit",
       "artistName": "Reorder",
@@ -8,6 +10,8 @@
       "albumImage": "https://i.scdn.co/image/4652c5dcfeeb8962bfec52f8563726c0eee66a62"
     },
     {
+      "voteUp": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/4aKKNhuJJ8HYfnFoUcTFzj?vote=up&access_token=access_token",
+      "voteDown": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/4aKKNhuJJ8HYfnFoUcTFzj?vote=down&access_token=access_token",      
       "trackID": "4aKKNhuJJ8HYfnFoUcTFzj",
       "trackName": "Iron",
       "artistName": "Woodkid",
@@ -15,6 +19,8 @@
       "albumImage": "https://i.scdn.co/image/d0f27955b77523d14a6a0596536a0a227854e372"
     },
     {
+      "voteUp": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/1ujP2oRzsv5gf519lOlnmN?vote=up&access_token=access_token",
+      "voteDown": "http://localhost:8081/blze/5DEfB6faDy0LMFnqaqVUMH/1ujP2oRzsv5gf519lOlnmN?vote=down&access_token=access_token",
       "trackID": "1ujP2oRzsv5gf519lOlnmN",
       "trackName": "Fly To New York - Above & Beyond Vs. Jason Ross Radio Edit",
       "artistName": "Above & Beyond",
