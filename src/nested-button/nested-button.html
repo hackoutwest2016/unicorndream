@@ -31,7 +31,9 @@
         type: String
       },
       nextRequest: {
-        type: String
+        type: String,
+        notify: true,
+        reflectToAttribute: true
       }
     },
     listeners: {
@@ -45,6 +47,11 @@
       this.nextRequest = this.playlistUrl;
       console.log("this.nextRequest2");
       console.log(this.nextRequest);
+
+      console.log('window.testing123');
+      console.log(window.testing123);
+
+      window.nextUrl = this.playlistUrl;
 
     }
   });
