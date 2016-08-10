@@ -58,14 +58,15 @@ app.get('/:user/:playlist/tracks', function (req, res) {
 
 var voteMap = new Map();
 var trackKey;
-var trackValue= 0;
 
 app.get('/:user/:playlist/:track', function (req, res) {
     var trackKey = req.params.track;
+    var trackValue= voteMap.get(trackKey);
+
     if(req.query.vote == 'up'){
       console.log("The song is voted up");
-      if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
-          trackValue = trackValue+1;
+      if(trackValue == undefined){ //if track has no votes yet
+          trackValue = 1;
           voteMap.set(trackKey, trackValue);
       } else{
           trackValue=voteMap.get(trackKey) + 1;
@@ -74,15 +75,13 @@ app.get('/:user/:playlist/:track', function (req, res) {
     }else if (req.query.vote == 'down'){
       console.log("The song is voted down");
       if(voteMap.get(trackKey) == undefined){ //if track has no votes yet
-          trackValue = trackValue-1;
+          trackValue = -1;
           voteMap.set(trackKey, trackValue);
       } else{
           trackValue=voteMap.get(trackKey) - 1;
           voteMap.set(trackKey, trackValue);
         }
     }
-      console.log("VoteMap consists of" + voteMap);
-
       if(req.query.vote != null){
         var options = {
           url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
@@ -101,28 +100,46 @@ app.get('/:user/:playlist/:track', function (req, res) {
           }
           songTotalVotes = voteMap.get(trackKey);
           console.log("SongTotalVotes: " + songTotalVotes);
-          console.log("SongPosition: " + SongPosition);
+          console.log("SongPosition: " + songPosition);
           console.log(voteMap);
-       for(var j = 0; j<body.tracks.length; j++){
-         console.log("votes in current song in the loop and its id " + voteMap.get(body.tracks[j].trackID) +" "+ body.tracks[j].trackID);
-        if((voteMap.get(body.tracks[j].trackID) >= songTotalVotes || voteMap.get(body.tracks[j].trackID) != null) && body.tracks[j].trackID != trackKey ){
-          console.log("Votes of current song in the loop >= the song we just voted. The id of current song: " + body.tracks[j].trackID);
-          console.log("Votes of current tack and its id " + voteMap.get(body.tracks[j].trackID) + " " + body.tracks[j].trackID );
-          var insertPosition = j;
-          console.log("InsertPosition: " + insertPosition);
-          var options = { url: 'https://api.spotify.com/v1/users/' + req.params.user + '/playlists/' + req.params.playlist + '/tracks', method: 'PUT', headers: { 'Authorization': 'Bearer ' + req.query.access_token }, json: {
-            'range_start': songPosition,
-            'range_length': 1,
-            'insert_before': insertPosition
-          }};
-          request(options, function(error, response, body){
-            // console.log("Response" + JSON.stringify(response));
-            // console.log("Body " + JSON.stringify(body));
-            // console.log("error " + error);
-          })
+          var insertPosition = undefined;
+
+          if(songTotalVotes > 0 && voteMap.size==1){ //if only one song is voted
+      	     insertPosition=0;
+           }else if (songTotalVotes<0 && voteMap.size == 1){
+      	      insertPosition = body.tracks.length;
+            } else{ //if more than one song is voted
+
+              for(var j = 0; j<body.tracks.length; j++){ //loop through all the songs
+                if(songTotalVotes>0){ //if song is voted up
+              	  if(songTotalVotes >= voteMap.get(body.tracks[j].trackID) ||      voteMap.get(body.tracks[j].trackID==null)){
+               	 	  var insertPosition = j;
+                		  insertPosition=j;
+                		  break;
+              	   }
+                }else if (songTotalVotes<=0){
+              	 if(songTotalVotes >= voteMap.get(body.tracks[j].trackID)){
+              		  insertPosition = j;
+              		  break;
+                  }
+                }
+            }
         }
-      }
-      res.redirect('/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token );
+            var options = { url: 'https://api.spotify.com/v1/users/' + req.params.user + '/playlists/' + req.params.playlist + '/tracks', method: 'PUT', headers: { 'Authorization': 'Bearer ' + req.query.access_token }, json: {
+                  'range_start': songPosition,
+                  'range_length': 1,
+                  'insert_before': insertPosition
+                }};
+                request(options, function(error, response, body){
+                  // console.log("Response" + JSON.stringify(response));
+                  // console.log("Body " + JSON.stringify(body));
+                  // console.log("error " + error);
+                })
+
+
+        setTimeout(function(){
+          res.redirect('/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token );
+        }, 5000);
     });
   } //if-sats
 
