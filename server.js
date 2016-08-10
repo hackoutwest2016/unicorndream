@@ -31,9 +31,9 @@ app.get('/:user/playlist', function (req, res) {
     var postfix = '/tracks?access_token=' + req.query.access_token;
     for (var i = 0; i < body.items.length; i++){
       if (body.items[i].collaborative){
-        var playlist = { playlistID: body.items[i].id, 
-          userID: body.items[i].owner.id, 
-          playlistName: body.items[i].name, 
+        var playlist = { playlistID: body.items[i].id,
+          userID: body.items[i].owner.id,
+          playlistName: body.items[i].name,
           playlistImage: body.items[i].images[0].url,
           'url': url + body.items[i].id + postfix };
         playlists[counter]=playlist;
@@ -104,7 +104,6 @@ app.get('/:user/:playlist/:track', function (req, res) {
           voteMap.set(trackKey, trackValue);
         }
     }
-<<<<<<< HEAD
       if(req.query.vote != null){
         var options = {
           url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
@@ -123,7 +122,6 @@ app.get('/:user/:playlist/:track', function (req, res) {
           }
           songTotalVotes = voteMap.get(trackKey);
           console.log("SongTotalVotes: " + songTotalVotes);
-          console.log("SongPosition: " + songPosition);
           console.log(voteMap);
           var insertPosition = undefined;
 
@@ -134,20 +132,27 @@ app.get('/:user/:playlist/:track', function (req, res) {
             } else{ //if more than one song is voted
 
               for(var j = 0; j<body.tracks.length; j++){ //loop through all the songs
+                console.log("in foor");
                 if(songTotalVotes>0){ //if song is voted up
-              	  if(songTotalVotes >= voteMap.get(body.tracks[j].trackID) ||      voteMap.get(body.tracks[j].trackID==null)){
+                  console.log("songTotalVotes>0");
+                  console.log("voteap votes" + voteMap.get(body.tracks[j].trackID));
+                  if(songTotalVotes >= voteMap.get(body.tracks[j].trackID) ||      voteMap.get(body.tracks[j].trackID) == undefined){
                	 	  var insertPosition = j;
                 		  insertPosition=j;
                 		  break;
               	   }
                 }else if (songTotalVotes<=0){
-              	 if(songTotalVotes >= voteMap.get(body.tracks[j].trackID)){
+                  console.log("songTotalVotes<=0");
+                  console.log("voteMap votes" + voteMap.get(body.tracks[j].trackID));
+              	 if(songTotalVotes >= voteMap.get(body.tracks[j].trackID) && body.tracks[j].trackID != trackKey){
               		  insertPosition = j;
               		  break;
                   }
                 }
             }
         }
+        console.log("SongPosition: " + songPosition);
+        console.log("insertPosition: " + insertPosition);
             var options = { url: 'https://api.spotify.com/v1/users/' + req.params.user + '/playlists/' + req.params.playlist + '/tracks', method: 'PUT', headers: { 'Authorization': 'Bearer ' + req.query.access_token }, json: {
                   'range_start': songPosition,
                   'range_length': 1,
@@ -163,33 +168,6 @@ app.get('/:user/:playlist/:track', function (req, res) {
         setTimeout(function(){
           res.redirect('/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token );
         }, 5000);
-=======
-      console.log(voteMap);
-      var options = {
-       url: 'http://localhost:8081/' + req.params.user + '/' + req.params.playlist + '/tracks?access_token=' + req.query.access_token,
-       headers: { 'Authorization': 'Bearer ' + req.query.access_token },
-       json: true
-     };
-     console.log(options.url);
-     request.get(options, function(error, response, body){
-       var songPosition;
-       var songTotalVotes;
-       console.log(body);
-       console.log(response);
-       console.log(error);
-
-       //for(var i = 0; i<body.tracks.length; i++){
-        //if(body.tracks[i].trackName == trackKey){
-        //  songPosition = i;
-        //  break;
-      //  }
-    //  }
-
-       songTotalVotes = voteMap.get(trackKey);
-       //for(var j = 0; j<body.items.length; j++){
-      //   if(voteMap.get(body.items[i].id != ))
-      // }
->>>>>>> 4d2059160bfe74d36ee1213bbc7760b617e1c66c
     });
   } //if-sats
 
