@@ -12,6 +12,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/paper-material/paper-material.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="track-item/track-item.html">
 <link rel="import" href="nested-button/nested-button.html">
 <link rel="import" href="view-button.html">
@@ -158,38 +159,52 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </text-user>
 
 
-      <template is="dom-bind">
+<!--       <template is="dom-bind">
         <paper-material id="playlistHeader" elevation="1">
           <h1>Your playlists</h1>
-          </paper-material>
+        </paper-material>
         <iron-ajax url="../data/playlist.json" last-response="{{data}}" auto></iron-ajax>
         <iron-list items="[[data.playlists]]" as="item">
           <template>
             <div>
               <hr>
               <paper-material elevation="1">
-                  <list-container>
-                    <div class="playlistName playlistItem">
-                      <h2>[[item.playlistName]]</h2>
-                    </div>
-                    <div class="playlistAdd playlistItem">
+                <div class="playlistName playlistItem">
+                  <h2>[[item.playlistName]]</h2>
+                </div>
+                <div class="playlistAdd playlistItem">
+                  <nested-button playlist-url="[[item.url]]" next-request="{{nextRequest}}"></nested-button>
+                </div>
+              </paper-material>
+            </div>
+          </template>
+        </iron-list>
+      </template> -->
 
-                      <nested-button playlist-url="[[item.url]]" next-request="[[nextRequestUrl]]"></nested-button>
-
-                      <!-- <a href="/view1">
-                        <paper-button on-tap="{{doSomething}}">Choose</paper-button>
-                      </a> -->
-
-
-
-                    </div>
-                  </list-container>
+      <template is="dom-bind">
+        <paper-material id="playlistHeader" elevation="1">
+          <h1>Your playlists</h1>
+        </paper-material>
+        <iron-ajax url="../data/playlist.json" last-response="{{playlistData}}" auto></iron-ajax>
+        <iron-list items="[[playlistData.playlists]]" as="item">
+          <template>
+            <div>
+              <paper-material elevation="1">
+                <div class="playlistName playlistItem">
+                  <h2>[[item.playlistName]]</h2>
+                </div>
+                <div class="playlistAdd playlistItem">
+                  <nested-button playlist-url="[[item.url]]">
+                  </nested-button>
                 </div>
               </paper-material>
             </div>
           </template>
         </iron-list>
       </template>
+
+      <paper-button raised id="playListButton">Set Next Request</paper-button>
+      <span>nextRequest={{nextRequest}}</span>
 
     </div>
   </template>
@@ -199,12 +214,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Polymer({
 
       is: 'my-view2',
-      nextRequest: {
-        type: String,
-        notify: true,
-        reflectToAttribute: true
+      
+      properties: {
+        nextRequest: {
+          type: String,
+          notify: true,
+          reflectToAttribute: true
+        }
+      },
+      listeners: {
+        'playListButton.tap': 'playListFunc'
+      },
+      playListFunc: function()
+      {
+        console.log('playListButton.tap');
+        this.nextRequest = "Choose Playlist";
       }
-
     });
 
   </script>

@@ -64,11 +64,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-input label="password"></paper-input>
         </div>
         <div>
-          <paper-button id="login-Button" label="Click" link="http://localhost:8081/login"
-        on-click="{loginLink}">LOG IN
-      </paper-button>
+          <paper-button id="login-Button" label="Click" link="http://localhost:8081/login">
+            LOG IN
+          </paper-button>
         </div>
       </paper-card>
+      <div>
+        <paper-button raised id="loginTestButton">
+          Set Next Request
+        </paper-button>
+        <span>nextRequest={{nextRequest}}</span>
+      </div>
     </div>
 
     <!--  <div class="examplePreload">
@@ -82,16 +88,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Polymer({
 
       is: 'my-view4',
+      properties: {
+        nextRequest: {
+          type: String,
+          notify: true,
+          reflectToAttribute: true
+        }
+      },
       listeners: {
-        "login-Button.tap": "loginLink"
+        "login-Button.tap": "loginLink",
+        "loginTestButton.tap": "loginTest"
       },
       loginLink: function(e) {
         console.log("Helllooo");
         window.location.href = e.target.getAttribute('link');
+      },
+      loginTest: function(e) {
+        console.log("this.nextRequest");
+        console.log(this.nextRequest);
+        this.nextRequest = 'login';
+        console.log("this.nextRequest");
+        console.log(this.nextRequest);
       }
-
     });
-
 
   </script>
 

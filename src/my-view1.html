@@ -102,6 +102,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </text-user>
 
     <div class="card">
+      <paper-button raised id="voteButton">Set Next Request</paper-button>
+      <span>nextRequest={{nextRequest}}</span>
 
       <template is="dom-bind">
         <iron-ajax url="../data/tracks.json" last-response="{{tracksData}}" auto></iron-ajax>
@@ -153,7 +155,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </iron-data-table>
       </template> -->
     </div>
-    <paper-button hidden id="testButton">Test</paper-button>
   </template>
   <script>
 
@@ -175,7 +176,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       listeners: {
-        'testButton.tap': 'printNextReq'
+        'voteButton.tap': 'voteFunc'
       },
 
       ready: function() {
@@ -185,8 +186,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       printNextReq: function(index) {
         console.log("Print Next request");
         console.log(this.nextRequest);
+      },
+      voteFunc: function()
+      {
+        console.log('voteButton.tap');
+        this.nextRequest = "Vote";
       }
-
     });
 
   </script>

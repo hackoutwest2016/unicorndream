@@ -29,12 +29,12 @@
     properties: {
       playlistUrl: {
         type: String
-      },
-      nextRequest: {
-        type: String,
-        notify: true,
-        reflectToAttribute: true
       }
+      // nestedNextRequest: {
+      //   type: String,
+      //   notify: true,
+      //   reflectToAttribute: true
+      // }
     },
     listeners: {
       'chooseButton.tap': 'playlistChosen'
@@ -42,11 +42,11 @@
     playlistChosen: function() {
       console.log("Playlist chosen");
       console.log(this.playlistUrl);
-      console.log("this.nextRequest1");
-      console.log(this.nextRequest);
-      this.nextRequest = this.playlistUrl;
-      console.log("this.nextRequest2");
-      console.log(this.nextRequest);
+      console.log("this.nestedNextRequest");
+      console.log(this.nestedNextRequest);
+      this.nestedNextRequest = this.playlistUrl;
+      console.log("this.nestedNextRequest");
+      console.log(this.nestedNextRequest);
 
       console.log('window.testing123');
       console.log(window.testing123);
